@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <body> 
+        <h1>Dealership Management System</h1>
+        
+        <form action="customer.php" method="post">
+            <fieldset>
+                <legend><h2>New Customer Form</h2></legend>
+                <p>First Name: <input type="text" name="first_name">&nbsp; Last Name: <input type="text" name="last_name"></p>
+                <p>Phone Number: <input type="tel" name ="phone"> </p>
+                <p>Gender: <select name=gender>
+                    <option value="0">Male</option>
+                    <option value="1">Female</option>
+                    <option value="2">Other</option>
+                    </select></p>
+                <p>Date of Birth: <input type="date" name="DOB"> </p>
+                <p>Tax ID: <input type="number" name="tax_id"> </p>
+                <p>Email Address: <input type="email" name="email"></p>
+        
+                <fieldset>
+                    <legend>Address</legend>
+                    <p>Street Name: <input type="text" name="street" size="60" ></p>
+                    <p>City: <input type="text" name="city">&nbsp;Postal Code: <input type="text" name="postalCode">&nbsp;Province: <input type="text" name="province"></p>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Employement History</legend>
+                    <p>Employer: <input type="text" name="employer">&nbsp;Title:<input type="text" name="title">&nbsp;Supervisor<input type="text" name="supervisor"></p>
+                    <p>Phone Number:<input type="text" name="phone">&nbsp;Start Date:<input type="date" name="start_date">&nbsp;End Date:<input type="date" name="end_date"></p>
+                    <p>Street Name: <input type="text" name="street" size="60" ></p>
+                    <p>City: <input type="text" name="city">&nbsp;Postal Code: <input type="text" name="postalCode">&nbsp;Province: <input type="text" name="province">
+                    
+                </fieldset>
+            </fieldset>
+        </form>
+    </body>
+</html>
