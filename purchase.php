@@ -27,11 +27,13 @@
   if (isset($_POST['price_paid'])) $price_paid = $_POST['price_paid'];
   if (isset($_POST['issue_log'])) $issue_log = $_POST['issue_log'];
   if (isset($_POST['repair_cost'])) $repair_cost = $_POST['repair_cost'];
+  $customer_id = "NULL";
+  $vehicle_id = "V-000000001";
 
   if (isset($_POST['purchase_submit']))
   {
     $sql = "INSERT INTO vehicle (vehicle_id, customer_id, make, model, v_year, color, miles, v_condition, repair_cost, book_price,
-    issue_log, sales_price, style, interior_color) VALUES ('V-000000001', 'nil', '$make', '$model', '$year', '$color',
+    issue_log, sales_price, style, interior_color) VALUES ('$vehicle_id', '$customer_id', '$make', '$model', '$year', '$color',
     '$miles', '$condition', '$repair_cost', '$book_price', '$issue_log', '$price_paid', '$style', '$interior_color')";
 
   	if ($conn->query($sql) === TRUE){
