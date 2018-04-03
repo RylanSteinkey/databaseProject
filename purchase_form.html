@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <body> 
+    <body>
         <h1>Dealership Management System</h1>
-        
+
         <form action="purchase.php" method="post">
             <fieldset>
                 <legend><h2>Purchase Form</h2></legend>
@@ -18,7 +18,7 @@
                         <option value="2">Mechanical</option>
                         <option value="3">Both</option>
                         </select></p>
-                    <p>Style: <select>
+                    <p>Style: <select name=v_style>
                         <option value="Sedan">Sedan</option>
                         <option value="SUV">SUV</option>
                         <option value="Coupe">Coupe</option>
@@ -29,7 +29,7 @@
                         <option value="Wagon">Wagon</option>
                         <option value="Other">Other/Don't Know</option>
                         </select>
-                    
+
                     &nbsp; Interior Color: <input type="text" name="interior_color">
                     </p>
                     <p>Book Price ($): <input type="number" name="book_price"> &nbsp; Price Paid ($): <input type="number" name="price_paid"></p>
@@ -39,8 +39,8 @@
                     <p>Total repair cost ($): <input type="number" name="repair_cost"></p>
                 </fieldset>
                 <br/>
-                <input type="submit">
-                
+                <input type="submit" name="purchase_submit">
+
             </fieldset>
         </form>
     </body>
