@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body> 
+        <h1>Dealership Management System</h1>
+        
+        <form action="purchase.php" method="post">
+            <fieldset>
+                <legend><h2>Car Sale Form</h2></legend>
+                <p>Purchase Date: <input type="date" name="date_sold"> &nbsp; Total Due: <input type="number" name="total_due"></p>
+                <p>Down Payment: <input type="number" name="down_payment"> &nbsp; Finance Amount: <input type="number" name="finance_amount"></p>
+                <fieldset>
+                    <legend>Salesperson Information</legend>
+                    <p>Salesperson_ID <select name="emp_id">
+                        <!--enter PHP -->
+                        </select>
+                        First name: <!-- Echo salesperson first name--> &nbsp; Last name: <!-- Echo salesperson last name -->
+                    &nbsp; Commision Percentage (%): <input type="number" name="rep_commission">
+                    </p>
+                </fieldset>
+                <br/>
+                <fieldset>
+                <legend>Customer Information</legend>
+                    <p>Select an existing customer <select name="customer_id">
+                        <!--Enter autofill with customer name-->
+                        </select>
+                        &nbsp; or create a new one <a href="/new_customer.html">here</a></p>
+                    <fieldset>
+                        <legend>Existing Customer Information</legend>
+                        <p>Customer ID: <!--Customer ID of selected--></p>
+                        <p>Name: <!--Echo first-->, <!--Echo last--> &nbsp; Phone: <!--Echo phone number--> &nbsp; Email: <!--Echo email--></p>
+                        <p>Address: <!--Echo Address Information --></p>
+                    </fieldset>
+                </fieldset>
+                <br/>
+                <input type="submit">
+                
+            </fieldset>
+        </form>
+    </body>
+</html>

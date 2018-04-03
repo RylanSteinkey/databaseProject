@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <body> 
+        <h1>Dealership Management System</h1>
+        
+        <form action="purchase.php" method="post">
+            <fieldset>
+                <legend><h2>Purchase Form</h2></legend>
+                <p>Purchase Date: <input type="date" name="purch_date"> Purchase Location: <input type="text" name="purch_location"></p>
+                <p>Seller/Dealer: <select name=dealer_id><!--Add PHP here to prepoulate the list--></select></p>
+                <p>Auction: <input type="checkbox" name="auction">Yes.</p>
+                <fieldset>
+                    <legend>Vehicle Information</legend>
+                    <p>Make: <input type="text" name="make"> &nbsp; Model: <input type="text" name="model"> &nbsp; Year: <input type="number" min="1900" max="2099" step="1" value="2018" name="v_year"></p>
+                    <p>Color: <input type="text" name="color"> &nbsp; Miles: <input type="number" name="miles" min="000000" max="1000000" value="000000" step="1"> &nbsp; Condition: <select name=v_condition>
+                        <option value="0">No Issue</option>
+                        <option value="1">Cosmetic</option>
+                        <option value="2">Mechanical</option>
+                        <option value="3">Both</option>
+                        </select></p>
+                    <p>Style: <select>
+                        <option value="Sedan">Sedan</option>
+                        <option value="SUV">SUV</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Hatchback">Hatchback</option>
+                        <option value="Convertible">Convertible</option>
+                        <option value="Van">Minivan</option>
+                        <option value="Truck">Truck</option>
+                        <option value="Wagon">Wagon</option>
+                        <option value="Other">Other/Don't Know</option>
+                        </select>
+                    
+                    &nbsp; Interior Color: <input type="text" name="interior_color">
+                    </p>
+                    <p>Book Price ($): <input type="number" name="book_price"> &nbsp; Price Paid ($): <input type="number" name="price_paid"></p>
+                    <p>Vehicle Issues:</p>
+                    <p>Please list all issues with estimated repair costs</p>
+                    <textarea name="issue_log"></textarea>
+                    <p>Total repair cost ($): <input type="number" name="repair_cost"></p>
+                </fieldset>
+                <br/>
+                <input type="submit">
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
