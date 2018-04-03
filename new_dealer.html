@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body> 
+        <h1>Dealership Management System</h1>
+        
+        <form action="dealer.php" method="post">
+            <fieldset>
+                <legend><h2>New Dealer Form</h2></legend>
+                <p>Company Name: <input type="text" name="company_name">&nbsp;Company Phone Number: <input type="tel" name ="company_phone"> </p>
+                <fieldset>
+                    <legend>Contact</legend>
+                    <p>First Name: <input type="text" name="contact_first">&nbsp; Last Name: <input type="text" name="contact_last"></p>
+                    <p>Phone Number: <input type="tel" name ="contact_phone">&nbsp;Email: <input type="email" name="contact_email"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Address</legend>
+                    <p>Street Name: <input type="text" name="dealer_street" size="60" ></p>
+                    <p>City: <input type="text" name="dealer_city">&nbsp;Postal Code: <input type="text" name="dealer_postal_code">&nbsp;Province: <input type="text" name="dealer_province"></p>
+                </fieldset>
+                <p>Additional Notes</p>
+                <textarea name="notes"></textarea>
+            </fieldset>
+        </form>
+    </body>
+</html>
