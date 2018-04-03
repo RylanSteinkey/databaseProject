@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <body> 
+    <body>
         <h1>Dealership Management System</h1>
-        
+
         <form action="dealer.php" method="post">
             <fieldset>
                 <legend><h2>New Dealer Form</h2></legend>
@@ -14,15 +14,14 @@
                 </fieldset>
                 <fieldset>
                     <legend>Address</legend>
-                    <p>Street Name: <input type="text" name="dealer_street" size="60" required></p>
-                    <p>City: <input type="text" name="dealer_city"required>&nbsp;Postal Code: <input type="text" name="dealer_postal_code"required>&nbsp;Province: <input type="text" name="dealer_province"required></p>
+                    <p>Street Name: <input type="text" name="street_name" size="60" required></p>
+                    <p>City: <input type="text" name="city" required>&nbsp;Postal Code: <input type="text" name="postal_code"required>&nbsp;Province: <input type="text" name="province"required></p>
                 </fieldset>
                 <p>Additional Notes</p>
                 <p><textarea name="notes"></textarea></p>
                 <input type="submit" name= "dealer_submit">
             </fieldset>
-            
+
         </form>
     </body>
 </html>
-
