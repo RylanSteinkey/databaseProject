@@ -11,17 +11,17 @@
     $company_name = $contact_first = $contact_last = $contact_phone = $company_phone = "";
     $contact_email = $notes = $province = $city = $street_name = $postal_code = "";
 
-    $company_name = $_POST['company_name'];
-    $contact_first = $_POST['contact_first'];
-    $contact_last = $_POST['contact_last'];
-    $contact_phone = $_POST['contact_phone'];
-    $company_phone = $_POST['company_phone'];
-    $contact_email = $_POST['contact_email'];
-    $notes = $_POST['notes'];
-    $province = $_POST['province'];
-    $city = $_POST['city'];
-    $street_name = $_POST['street_name'];
-    $postal_code = $_POST['postal_code'];
+    $company_name = mysqli_real_escape_string($_POST['company_name']);
+    $contact_first = mysqli_real_escape_string($_POST['contact_first']);
+    $contact_last = mysqli_real_escape_string($_POST['contact_last']);
+    $contact_phone = mysqli_real_escape_string($_POST['contact_phone']);
+    $company_phone = mysqli_real_escape_string($_POST['company_phone']);
+    $contact_email = mysqli_real_escape_string($_POST['contact_email']);
+    $notes = mysqli_real_escape_string($_POST['notes']);
+    $province = mysqli_real_escape_string($_POST['province']);
+    $city = mysqli_real_escape_string($_POST['city']);
+    $street_name = mysqli_real_escape_string($_POST['street_name']);
+    $postal_code = mysqli_real_escape_string($_POST['postal_code']);
 
     $sql = "INSERT INTO dealer (dealer_id, company_name, contact_first, contact_last, contact_phone,
     company_phone, contact_email, notes, province, city, street_name, postal_code)
