@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <body> 
+    <head>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+        
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+            #btn-close-modal {
+                width:100%;
+                text-align: center;
+                cursor:pointer;
+                color:#fff;
+            }
+        </style>
+    </head>
+    <body>
+
+        
+        
         <h1>Dealership Management System</h1>
         
         <form action="purchase.php" method="post">
@@ -23,7 +39,8 @@
                     <p>Select an existing customer <select name="customer_id">
                         <!--Enter autofill with customer name-->
                         </select>
-                        &nbsp; or create a new one <a href="/new_customer.html">here</a></p>
+                        &nbsp; or create a new one <a id="custModal" href="#animatedModal"> HERE.</a></p>
+                        
                     <fieldset>
                         <legend>Existing Customer Information</legend>
                         <p>Customer ID: <!--Customer ID of selected--></p>
@@ -32,9 +49,37 @@
                     </fieldset>
                 </fieldset>
                 <br/>
+                <fieldset>
+                    <legend>Vehicle Information</legend>
+                    <p>Vehicle ID: <select name="vehicle_id">
+                        <!--Auto-populate the select box in following format: Vehicle_ID,Make,Model,Year,Color-->
+                        </select></p>
+                    <p>Vehicle Make: <!--make--> &nbsp; Vehicle Model:<!--model--> &nbsp;  Vehicle Year: <!--Year--> &nbsp; Vehicle Color: <!--color--> </p>
+                    <p>Vehicle Style: <!--style--> &nbsp; Interior Color: <!--Interior Color--></p>
+                </fieldset>
+                <br/>
                 <input type="submit">
                 
             </fieldset>
         </form>
+        
+        <!--DEMO01-->
+        <div id="animatedModal">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+            <div class="close-animatedModal"> 
+                CLOSE MODAL
+            </div>
+            <center>
+                <div class="modal-content" style="background-color: azure; border: 2px solid #000; width: 70%; width: 70%;">
+                    <iframe src="new_customer.html" width="100%" height="800px"></iframe>
+                </div>
+            </center>
+        </div>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/animatedModal.min.js"></script>
+        <script>
+            $("#custModal").animatedModal();
+        </script>
     </body>
 </html>
