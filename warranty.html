@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
+<html>
+    <body>
+        <h1>Dealership Management System</h1>
+
+        <form action="warranty.php" method="post">
+            <fieldset>
+                <legend><h2>Warranty Form</h2></legend>
+                <p>Customer ID: <input type="number" name="customer_id"required>&nbsp;Co-Signer ID: <input type="number" name="cosigner_id"required></p>
+                <p>Warranty Sale Date: <input type="date" name="sale_date"required></p>
+                <p>Total Cost:<input type="number" name="total_cost"required>&nbsp;Monthly Cost:<input type="number" name="monthly_cost"required></p>
+                <p>Salesperson Employee ID:<input type="number" name="customer_id"required></p>
+                
+                <table style="width:60%">
+                    <tr>
+                        <th>Warranty ID</th>
+                        <th>Start Date</th>
+                        <th>Length</th>
+                        <th>Cost</th>
+                        <th>Deductible</th>
+                        <th>Items Covered</th>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="warranty_code1"></td>
+                        <td><input type="date" name="start_date1"></td>
+                        <td><input type="number" name="length1"></td>
+                        <td><input type="number" name="cost1"></td>
+                        <td><input type="number" name="deductible1"></td>
+                        <td><textarea name="covered_items1"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="warranty_code2"></td>
+                        <td><input type="date" name="start_date2"></td>
+                        <td><input type="number" name="length2"></td>
+                        <td><input type="number" name="cost2"></td>
+                        <td><input type="number" name="deductible2"></td>
+                        <td><textarea name="covered_items2"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="warranty_code3"></td>
+                        <td><input type="date" name="start_date3"></td>
+                        <td><input type="number" name="length3"></td>
+                        <td><input type="number" name="cost3"></td>
+                        <td><input type="number" name="deductible3"></td>
+                        <td><textarea name="covered_items3"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="warranty_code4"></td>
+                        <td><input type="date" name="start_date4"></td>
+                        <td><input type="number" name="length4"></td>
+                        <td><input type="number" name="cost4"></td>
+                        <td><input type="number" name="deductible4"></td>
+                        <td><textarea name="covered_items4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="warranty_code5"></td>
+                        <td><input type="date" name="start_date5"></td>
+                        <td><input type="number" name="length5"></td>
+                        <td><input type="number" name="cost5"></td>
+                        <td><input type="number" name="deductible5"></td>
+                        <td><textarea name="covered_items5"></textarea></td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" name= "warranty_submit">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
