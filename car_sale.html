@@ -5,6 +5,8 @@
         
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/main-style.css">
+        <style>
             #btn-close-modal {
                 width:100%;
                 text-align: center;
@@ -22,21 +24,30 @@
         <form action="purchase.php" method="post">
             <fieldset>
                 <legend><h2>Car Sale Form</h2></legend>
-                <p>Purchase Date: <input type="date" name="date_sold"> &nbsp; Total Due: <input type="number" name="total_due"></p>
-                <p>Down Payment: <input type="number" name="down_payment"> &nbsp; Finance Amount: <input type="number" name="finance_amount"></p>
+                <p>Purchase Date: <input type="date" name="date_sold" required> &nbsp; Total Due: <input type="number" name="total_due" required></p>
+                <p>Down Payment: <input type="number" name="down_payment" required> &nbsp; Finance Amount: <input type="number" name="finance_amount" required></p>
                 <fieldset>
                     <legend>Salesperson Information</legend>
-                    <p>Salesperson_ID <select name="emp_id">
+                    <p>Salesperson_ID <select name="emp_id" required>
                         <!--enter PHP -->
                         </select>
                         First name: <!-- Echo salesperson first name--> &nbsp; Last name: <!-- Echo salesperson last name -->
-                    &nbsp; Commision Percentage (%): <input type="number" name="rep_commission">
+                    &nbsp; Commision Percentage (%): <input type="number" name="rep_commission"> <!--If blank, use default commission-->
                     </p>
                 </fieldset>
                 <br/>
                 <fieldset>
+                    <legend>Vehicle Information</legend>
+                    <p>Vehicle ID: <select name="vehicle_id" required>
+                        <!--Auto-populate the select box in following format: Vehicle_ID,Make,Model,Year,Color-->
+                        </select></p>
+                    <p>Vehicle Make: <!--make--> &nbsp; Vehicle Model:<!--model--> &nbsp;  Vehicle Year: <!--Year--> &nbsp; Vehicle Color: <!--color--> </p>
+                    <p>Vehicle Style: <!--style--> &nbsp; Interior Color: <!--Interior Color--></p>
+                </fieldset>
+                <br/>
+                <fieldset>
                 <legend>Customer Information</legend>
-                    <p>Select an existing customer <select name="customer_id">
+                    <p>Select an existing customer <select name="customer_id" required>
                         <!--Enter autofill with customer name-->
                         </select>
                         &nbsp; or create a new one <a id="custModal" href="#animatedModal"> HERE.</a></p>
@@ -49,14 +60,7 @@
                     </fieldset>
                 </fieldset>
                 <br/>
-                <fieldset>
-                    <legend>Vehicle Information</legend>
-                    <p>Vehicle ID: <select name="vehicle_id">
-                        <!--Auto-populate the select box in following format: Vehicle_ID,Make,Model,Year,Color-->
-                        </select></p>
-                    <p>Vehicle Make: <!--make--> &nbsp; Vehicle Model:<!--model--> &nbsp;  Vehicle Year: <!--Year--> &nbsp; Vehicle Color: <!--color--> </p>
-                    <p>Vehicle Style: <!--style--> &nbsp; Interior Color: <!--Interior Color--></p>
-                </fieldset>
+                
                 <br/>
                 <input type="submit">
                 
