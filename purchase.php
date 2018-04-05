@@ -10,23 +10,23 @@
   $miles = $condition = $style = $interior_color = $book_price = $price_paid = "";
   $issue_log = $repair_cost = "";
 
-  if (isset($_POST['purch_date'])) $purch_date = $_POST['purch_date'];
-  if (isset($_POST['purch_location'])) $purch_location = $_POST['purch_location'];
-  if (isset($_POST['auction'])) $auction = $_POST['auction'];
+  if (isset($_POST['purch_date'])) $purch_date = mysqli_real_escape_string($_POST['purch_date']);
+  if (isset($_POST['purch_location'])) $purch_location = mysqli_real_escape_string($_POST['purch_location']);
+  if (isset($_POST['auction'])) $auction = mysqli_real_escape_string($_POST['auction']);
 
-  if (isset($_POST['make'])) $make = $_POST['make'];
-  if (isset($_POST['model'])) $model = $_POST['model'];
-  if (isset($_POST['v_year'])) $year = $_POST['v_year'];
-  if (isset($_POST['color'])) $color = $_POST['color'];
-  if (isset($_POST['v_style'])) $style = $_POST['v_style'];
+  if (isset($_POST['make'])) $make = mysqli_real_escape_string($_POST['make']);
+  if (isset($_POST['model'])) $model = mysqli_real_escape_string($_POST['model']);
+  if (isset($_POST['v_year'])) $year = mysqli_real_escape_string($_POST['v_year']);
+  if (isset($_POST['color'])) $color = mysqli_real_escape_string($_POST['color']);
+  if (isset($_POST['v_style'])) $style = mysqli_real_escape_string($_POST['v_style']);
 
-  if (isset($_POST['miles'])) $miles = $_POST['miles'];
-  if (isset($_POST['v_condition'])) $condition = $_POST['v_condition'];
-  if (isset($_POST['interior_color'])) $interior_color = $_POST['interior_color'];
-  if (isset($_POST['book_price'])) $book_price = $_POST['book_price'];
-  if (isset($_POST['price_paid'])) $price_paid = $_POST['price_paid'];
-  if (isset($_POST['issue_log'])) $issue_log = $_POST['issue_log'];
-  if (isset($_POST['repair_cost'])) $repair_cost = $_POST['repair_cost'];
+  if (isset($_POST['miles'])) $miles = mysqli_real_escape_string($_POST['miles']);
+  if (isset($_POST['v_condition'])) $condition = mysqli_real_escape_string($_POST['v_condition']);
+  if (isset($_POST['interior_color'])) $interior_color = mysqli_real_escape_string($_POST['interior_color']);
+  if (isset($_POST['book_price'])) $book_price = mysqli_real_escape_string($_POST['book_price']);
+  if (isset($_POST['price_paid'])) $price_paid = mysqli_real_escape_string($_POST['price_paid']);
+  if (isset($_POST['issue_log'])) $issue_log = mysqli_real_escape_string($_POST['issue_log']);
+  if (isset($_POST['repair_cost'])) $repair_cost = mysqli_real_escape_string($_POST['repair_cost']);
   $customer_id = "NULL";
   $vehicle_id = "V-000000001";
 
