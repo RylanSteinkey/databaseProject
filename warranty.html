@@ -16,15 +16,44 @@
     </head>
 <html>
     <body>
-        <h1>Dealership Management System</h1>
+        <?php include 'header.php';?>
 
         <form action="warranty.php" method="post">
             <fieldset>
                 <legend><h2>Warranty Form</h2></legend>
-                <p>Customer ID: <input type="number" name="customer_id"required>&nbsp;Co-Signer ID: <input type="number" name="cosigner_id"required></p>
+                <p>Select an existing customer <select name="customer_id" required>
+                        <!--Enter autofill with customer name-->
+                        </select>
+                        &nbsp; or create a new one <a id="custModal" href="#animatedModal"> HERE.</a></p>
+                        
+                    <fieldset>
+                        <legend>Existing Customer Information</legend>
+                        <p>Customer ID: <!--Customer ID of selected--></p>
+                        <p>Name: <!--Echo first-->, <!--Echo last--> &nbsp; Phone: <!--Echo phone number--> &nbsp; Email: <!--Echo email--></p>
+                        <p>Address: <!--Echo Address Information --></p>
+                    </fieldset>
+                    <p>Select an existing customer as the co-signer <select name="cosigner_id" required>
+                        <!--Enter autofill with customer name-->
+                        </select>
+                        &nbsp; or create a new one <a id="custModal" href="#animatedModal"> HERE.</a></p>
+                        
+                    <fieldset>
+                        <legend>Existing Cosigner Information</legend>
+                        <p>Customer ID: <!--Customer ID of selected--></p>
+                        <p>Name: <!--Echo first-->, <!--Echo last--> &nbsp; Phone: <!--Echo phone number--> &nbsp; Email: <!--Echo email--></p>
+                        <p>Address: <!--Echo Address Information --></p>
+                    </fieldset>
+                <br/>
+                    <fieldset>
+                        <legend>Salesperson Information</legend>
+                        <p>Salesperson_ID <select name="emp_id" required>
+                            <!--enter PHP -->
+                            </select>
+                            First name: <!-- Echo salesperson first name--> &nbsp; Last name: <!-- Echo salesperson last name -->
+                        </p>
+                </fieldset>
                 <p>Warranty Sale Date: <input type="date" name="sale_date"required></p>
                 <p>Total Cost:<input type="number" name="total_cost"required>&nbsp;Monthly Cost:<input type="number" name="monthly_cost"required></p>
-                <p>Salesperson Employee ID:<input type="number" name="customer_id"required></p>
                 
                 <table style="width:60%">
                     <tr>
