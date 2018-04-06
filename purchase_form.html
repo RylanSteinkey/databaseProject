@@ -11,19 +11,19 @@
         <form action="purchase.php" method="post">
             <fieldset>
                 <legend><h2>Purchase Form</h2></legend>
-                <p>Purchase Date: <input type="date" name="purch_date"> Purchase Location: <input type="text" name="purch_location"></p>
+                <p>Purchase Date: <input type="date" name="purch_date" required> Purchase Location: <input type="text" name="purch_location" required></p>
                 <p>Seller/Dealer: <select name=dealer_id><!--Add PHP here to prepoulate the list--></select></p>
-                <p>Auction: <input type="checkbox" name="auction">Yes.</p>
+                <p>Auction: <input type="checkbox" name="auction" required>Yes.</p>
                 <fieldset>
                     <legend>Vehicle Information</legend>
-                    <p>Make: <input type="text" name="make"> &nbsp; Model: <input type="text" name="model"> &nbsp; Year: <input type="number" min="1900" max="2099" step="1" value="2018" name="v_year"></p>
-                    <p>Color: <input type="text" name="color"> &nbsp; Miles: <input type="number" name="miles" min="000000" max="1000000" value="000000" step="1"> &nbsp; Condition: <select name=v_condition>
+                    <p>Make: <input type="text" name="make" required> &nbsp; Model: <input type="text" name="model" required> &nbsp; Year: <input type="number" min="1900" max="2099" step="1" value="2018" name="v_year" required></p>
+                    <p>Color: <input type="text" name="color" required> &nbsp; Miles: <input type="number" name="miles" min="000000" max="1000000" value="000000" step="1" required> &nbsp; Condition: <select name="v_condition" required>
                         <option value="0">No Issue</option>
                         <option value="1">Cosmetic</option>
                         <option value="2">Mechanical</option>
                         <option value="3">Both</option>
                         </select></p>
-                    <p>Style: <select name=v_style>
+                    <p>Style: <select name="v_style" required>
                         <option value="Sedan">Sedan</option>
                         <option value="SUV">SUV</option>
                         <option value="Coupe">Coupe</option>
@@ -35,13 +35,13 @@
                         <option value="Other">Other/Don't Know</option>
                         </select>
 
-                    &nbsp; Interior Color: <input type="text" name="interior_color">
+                    &nbsp; Interior Color: <input type="text" name="interior_color" required>
                     </p>
-                    <p>Book Price ($): <input type="number" name="book_price"> &nbsp; Price Paid ($): <input type="number" name="price_paid"></p>
+                    <p>Book Price ($): <input type="number" name="book_price" required> &nbsp; Price Paid ($): <input type="number" name="price_paid" required></p>
                     <p>Vehicle Issues:</p>
                     <p>Please list all issues with estimated repair costs</p>
-                    <textarea name="issue_log"></textarea>
-                    <p>Total repair cost ($): <input type="number" name="repair_cost"></p>
+                    <textarea name="issue_log" required></textarea>
+                    <p>Total repair cost ($): <input type="number" name="repair_cost" required></p>
                 </fieldset>
                 <br/>
                 <input type="submit" name="purchase_submit">
