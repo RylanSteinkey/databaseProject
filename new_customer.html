@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main-style.css">
-    </head>
-    <body>
+    <body> 
         <h1>Dealership Management System</h1>
-
+        
         <form action="customer.php" method="post">
             <fieldset>
                 <legend><h2>New Customer Form</h2></legend>
@@ -20,23 +16,93 @@
                 <p>Date of Birth: <input type="date" name="DOB"required> </p>
                 <p>Tax ID: <input type="number" name="tax_id"required> </p>
                 <p>Email Address: <input type="email" name="email"required></p>
-
+        
                 <fieldset>
                     <legend>Address</legend>
-                    <p>Street Name: <input type="text" name="street_name" size="60" required></p>
-                    <p>City: <input type="text" name="city"required>&nbsp;Postal Code: <input type="text" name="postal_code"required>&nbsp;Province: <input type="text" name="province"required></p>
+                    <p>Street Name: <input type="text" name="street" size="100" required></p>
+                    <p>City: <input type="text" name="city"required>&nbsp;Postal Code: <input type="text" name="postalCode"required>&nbsp;Province: <input type="text" name="province"required></p>
                 </fieldset>
-
+                
                 <fieldset>
                     <legend>Employement History</legend>
-                    <p>Employer: <input type="text" name="employer"required>&nbsp;Title:<input type="text" name="title" required>&nbsp;Supervisor<input type="text" name="supervisor"required></p>
-                    <p>Phone Number:<input type="text" name="employer_phone"required>&nbsp;Start Date:<input type="date" name="start_date"required>&nbsp;End Date:<input type="date" name="end_date"required></p>
-                    <p>Street Name: <input type="text" name="employer_street" size="60" required></p>
-                    <p>City: <input type="text" name="employer_city"required>&nbsp;Postal Code: <input type="text" name="employer_postal" required>&nbsp;Province: <input type="text" name="employer_province"required>
-
+                <table>
+                    <tr>
+                        <th>Employer</th>
+                        <th>Title</th>
+                        <th>Supervisor</th>
+                        <th>Phone Number</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Street Name</th>
+                        <th>City</th>
+                        <th>Postal Cose</th>
+                        <th>Province</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="employer"></td>
+                        <td><input type="text" name="title"></td>
+                        <td><input type="text" name="supervisor"></td>
+                        <td><input type="number" name="phone"></td>
+                        <td><input type="date" name="start_date"></td>
+                        <td><input type="date" name="end_date"></td>
+                        <td><input type="text" name="street"></td>
+                        <td><input type="text" name="city"></td>
+                        <td><input type="text" name="postalCode"></td>
+                        <td><input type="text" name="province"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="employer"></td>
+                        <td><input type="text" name="title"></td>
+                        <td><input type="text" name="supervisor"></td>
+                        <td><input type="number" name="phone"></td>
+                        <td><input type="date" name="start_date"></td>
+                        <td><input type="date" name="end_date"></td>
+                        <td><input type="text" name="street"></td>
+                        <td><input type="text" name="city"></td>
+                        <td><input type="text" name="postalCode"></td>
+                        <td><input type="text" name="province"></td>    
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="employer"></td>
+                        <td><input type="text" name="title"></td>
+                        <td><input type="text" name="supervisor"></td>
+                        <td><input type="number" name="phone"></td>
+                        <td><input type="date" name="start_date"></td>
+                        <td><input type="date" name="end_date"></td>
+                        <td><input type="text" name="street"></td>
+                        <td><input type="text" name="city"></td>
+                        <td><input type="text" name="postalCode"></td>
+                        <td><input type="text" name="province"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="employer"></td>
+                        <td><input type="text" name="title"></td>
+                        <td><input type="text" name="supervisor"></td>
+                        <td><input type="number" name="phone"></td>
+                        <td><input type="date" name="start_date"></td>
+                        <td><input type="date" name="end_date"></td>
+                        <td><input type="text" name="street"></td>
+                        <td><input type="text" name="city"></td>
+                        <td><input type="text" name="postalCode"></td>
+                        <td><input type="text" name="province"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="employer"></td>
+                        <td><input type="text" name="title"></td>
+                        <td><input type="text" name="supervisor"></td>
+                        <td><input type="number" name="phone"></td>
+                        <td><input type="date" name="start_date"></td>
+                        <td><input type="date" name="end_date"></td>
+                        <td><input type="text" name="street"></td>
+                        <td><input type="text" name="city"></td>
+                        <td><input type="text" name="postalCode"></td>
+                        <td><input type="text" name="province"></td>
+                    </tr>
+                </table>
+                    
                 </fieldset>
                 <br>
-                <input type="submit" name= "customer_submit">
+                <input type="submit" name= "dealer_submit">
             </fieldset>
         </form>
     </body>
