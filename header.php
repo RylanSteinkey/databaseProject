@@ -4,7 +4,7 @@
     
     <div class="header">
     
-        <h1>Dealership Management System</h1>
+        <img src="./css/img/graphicDMS.png" alt="logo" width="300px"/>
         
         <ul>
             <li><a href="/new_customer.html">New Customer</a></li>
@@ -16,5 +16,4 @@
     
     </div>
     '
-
 ?>
