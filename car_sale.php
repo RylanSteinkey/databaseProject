@@ -104,7 +104,7 @@
                     <?php
                       $sql = "SELECT emp_id, first_name, last_name FROM employee";
                       $results = $conn->query($sql);
-                      echo "Salesperson ID <select name='emp_id' onchange= \"showCustomerInfo(this.value)\" required>";
+                      echo "Salesperson ID <select name='emp_id' onchange= \"showEmployeeInfo(this.value)\" required>";
                       echo "<option value=''>Select salesperson</option>";
                       while($row = $results->fetch_assoc())
                       {
