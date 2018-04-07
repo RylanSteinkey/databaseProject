@@ -113,6 +113,7 @@
                       echo "</select>";
                     ?>
                     <p id="employee_info"> </p>
+                    Commission Percentage (%): <input type='number' name="rep_commission" required>
                 </fieldset>
                 <br/>
                 <fieldset>
