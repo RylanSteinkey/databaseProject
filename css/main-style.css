@@ -77,7 +77,7 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-input[type=text], input[type=date], input[type=number], textarea {
+input[type=text], input[type=date], input[type=number], input[type=tel], textarea {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;

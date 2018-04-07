@@ -14,9 +14,15 @@
                 <th>Customer ID</th>
                 <th>First Name</th>
                 <th>Last Name</th>
-                <th>Email</th>
+                <th>Address</th>
                 <th>Phone</th>
-                <th>City</th>
+                <th>Gender</th>
+                <th>DOB</th>
+                <th>Tax ID</th>
+                <th>Email</th>
+                <th># Late Payments</th>
+                <th>AVG Days late</th>
+                <th>Notes</th>
             </tr>
 
             <?php
@@ -41,9 +47,16 @@
                     echo "<tr>" . "<td>" . $row["customer_id"] . "</td>" . 
                         "<td>" . $row["first_name"] . "</td>" . 
                         "<td>" . $row["last_name"] . "</td>" . 
-                        "<td>" . $row["email"] . "</td>" . 
-                        "<td>" . $row["phone"] . "</td>" . 
-                        "<td>" . $row["city"] . "</td>" . "</tr>";
+                        "<td>" . $row["address"] . "</td>" . 
+                        "<td>" . $row["phone"] . "</td>" .
+                        "<td>" . $row["gender"] . "</td>" .
+                        "<td>" . $row["DOB"] . "</td>" .
+                        "<td>" . $row["tax_id"] . "</td>" .
+                        "<td>" . $row["email"] . "</td>" .
+                        "<td>" . $row["num_late_payments"] . "</td>" .
+                        "<td>" . $row["avg_days_late"] . "</td>" .
+                        "<td>" . $row["notes"] . "</td>" .
+                        "</tr>";
                 }
             } else {
                 echo "0 results";
