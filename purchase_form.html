@@ -4,15 +4,42 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main-style.css">
     </head>
-    
+
    <body>
-        <?php include 'header.php';?>
+        <?php
+        include 'header.php';
+        include 'connectdb.php';
+        connect_sql();
+        $conn = connect_sql();
+        ?>
 
         <form action="purchase.php" method="post">
             <fieldset>
                 <legend><h2>Purchase Form</h2></legend>
                 <p>Purchase Date: <input type="date" name="purch_date" required> Purchase Location: <input type="text" name="purch_location" required></p>
-                <p>Seller/Dealer: <select name=dealer_id><!--Add PHP here to prepoulate the list--></select></p>
+                <p>Seller/Dealer: <select name=dealer_id required>
+                  <option value=""></option>
+                  <?php
+                    $sql = "SELECT dealer_id, company_name FROM dealer";
+                    $results = $conn->query($sql);
+                    while($row = $results->fetch_assoc())
+                    {
+                      echo "<option value=" .$row['dealer_id']. ">" . $row['company_name'] . "</option>";
+                    }
+                  ?>
+                </select></p>
+                <p>Employee: <select name=emp_id required>
+                <option value=""></otion>
+                  <?php
+                      $sql_emp = "SELECT emp_id, first_name, last_name FROM employee";
+                      $results_emp = $conn->query($sql_emp);
+                      while($row_emp = $results_emp->fetch_assoc())
+                      {
+                        echo "<option value=" .$row_emp['emp_id']. ">" . $row_emp['first_name'] .  " " . $row_emp['last_name'] . "</option>";
+                      }
+                      $conn->close();
+                  ?>
+                </select></p>
                 <p>Auction: <input type="checkbox" name="auction" required>Yes.</p>
                 <fieldset>
                     <legend>Vehicle Information</legend>
