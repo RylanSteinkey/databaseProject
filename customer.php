@@ -51,14 +51,42 @@
       '$employer_city', '$employer_street', '$employer_postal', '$employer_province')";
       if ($conn->query($sql2) === TRUE)
       {
-        header('Location: ../new_customer');
-        exit;
+        if (empty($_POST['employer2'])){
+          header('Location: ../new_customer');
+          exit;
+        } else {
+          $employer2 = mysqli_real_escape_string($conn, $_POST['employer2']);
+          $title2 = mysqli_real_escape_string($conn, $_POST['title2']);
+          $supervisor2 = mysqli_real_escape_string($conn, $_POST['supervisor2']);
+          $employer_phone2 = mysqli_real_escape_string($conn, $_POST['employer_phone2']);
+          $employer_city2 = mysqli_real_escape_string($conn, $_POST['employer_city2']);
+          $employer_street2 = mysqli_real_escape_string($conn, $_POST['employer_street2']);
+          $employer_postal2 = mysqli_real_escape_string($conn, $_POST['employer_postal']);
+          $employer_province2 = mysqli_real_escape_string($conn, $_POST['employer_province2']);
+          $date_start2 = mysqli_real_escape_string($conn, $_POST['start_date2']);
+          $date_end2 = mysqli_real_escape_string($conn, $_POST['end_date2']);
+
+          $sql3 = "INSERT INTO customer_employment_history (customer_id, employer, title,
+          supervisor, start_date, end_date, phone, city, street_name, postal_code, province)
+          VALUES('$customer_id', '$employer2', '$title2', '$supervisor2', '$date_start2', '$date_end2', '$employer_phone2',
+          '$employer_city2', '$employer_street2', '$employer_postal2', '$employer_province2')";
+          if ($conn->query($sql3) === TRUE)
+          {
+            header('Location: ../new_customer');
+            exit;
+          } else
+          {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+            die();
+          }
+        }
       } else
       {
         echo "Error: " . $sql . "<br>" . $conn->error;
         die();
       }
-    } else
+
+    }else
     {
       echo "Error: " . $sql . "<br>" . $conn->error;
       die();
