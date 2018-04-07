@@ -4,24 +4,51 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main-style.css">
     </head>
-    
+
    <body>
-        <?php include 'header.php';?>
+        <?php
+        include 'header.php';
+        include 'connectdb.php';
+        connect_sql();
+        $conn = connect_sql();
+        ?>
 
         <form action="purchase.php" method="post">
             <fieldset>
                 <legend><h2>Purchase Form</h2></legend>
                 <p>Purchase Date: <input type="date" name="purch_date" required> Purchase Location: <input type="text" name="purch_location" required></p>
-                <p>Seller/Dealer: <select name=dealer_id><!--Add PHP here to prepoulate the list--></select></p>
-                <p>Auction: <input type="checkbox" name="auction" required>Yes.</p>
+                <p>Seller/Dealer: <select name=dealer_id required>
+                  <option value=""></option>
+                  <?php
+                    $sql = "SELECT dealer_id, company_name FROM dealer";
+                    $results = $conn->query($sql);
+                    while($row = $results->fetch_assoc())
+                    {
+                      echo "<option value=" .$row['dealer_id']. ">" . $row['company_name'] . "</option>";
+                    }
+                  ?>
+                </select></p>
+                <p>Employee: <select name=emp_id required>
+                <option value=""></otion>
+                  <?php
+                      $sql_emp = "SELECT emp_id, first_name, last_name FROM employee";
+                      $results_emp = $conn->query($sql_emp);
+                      while($row_emp = $results_emp->fetch_assoc())
+                      {
+                        echo "<option value=" .$row_emp['emp_id']. ">" . $row_emp['first_name'] .  " " . $row_emp['last_name'] . "</option>";
+                      }
+                      $conn->close();
+                  ?>
+                </select></p>
+                <p>Auction: <input type="checkbox" name="auction" value="Y" required>Yes.</p>
                 <fieldset>
                     <legend>Vehicle Information</legend>
                     <p>Make: <input type="text" name="make" required> &nbsp; Model: <input type="text" name="model" required> &nbsp; Year: <input type="number" min="1900" max="2099" step="1" value="2018" name="v_year" required></p>
                     <p>Color: <input type="text" name="color" required> &nbsp; Miles: <input type="number" name="miles" min="000000" max="1000000" value="000000" step="1" required> &nbsp; Condition: <select name="v_condition" required>
-                        <option value="0">No Issue</option>
-                        <option value="1">Cosmetic</option>
-                        <option value="2">Mechanical</option>
-                        <option value="3">Both</option>
+                        <option value="no_issues">No Issue</option>
+                        <option value="cosmetic">Cosmetic</option>
+                        <option value="mechanical">Mechanical</option>
+                        <option value="cosmetic_mechnical">Both</option>
                         </select></p>
                     <p>Style: <select name="v_style" required>
                         <option value="Sedan">Sedan</option>
