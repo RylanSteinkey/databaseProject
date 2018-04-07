@@ -46,10 +46,6 @@ li a:hover {
 
 #tables tr:hover {background-color: #ddd;}
 
-#tables td:last-child{
-    width: 100%;
-}
-
 #tables th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -60,6 +56,10 @@ li a:hover {
 }
 
 #tables textArea{
+    width: 100%;
+}
+
+.long td{
     width: 100%;
 }
 
