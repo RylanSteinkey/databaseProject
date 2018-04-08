@@ -1,0 +1,681 @@
+sale_id,customer_id,emp_id,vehicle_id,date_sold,total_due,down_payment,finance_amount,balance_remaining,rep_commission,number_payments,notes
+1,,7,187,8/26/2016,83911.54,3617,80294.54,52110,1.95,42,
+2,34,8,105,9/6/2015,76215.29,8496,67719.29,45706,2.31,31,
+3,61,2,85,12/3/2005,40599.17,1411,39188.17,28965,0.75,33,
+4,3,4,43,9/21/2012,99682.85,5586,94096.85,81857,1.58,43,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+5,58,7,30,9/18/2016,69886.91,2464,67422.91,22526,2.28,43,
+6,,7,272,12/20/2005,17379.65,3269,14110.65,4137,2.21,39,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+7,67,1,34,6/7/2013,84903.68,18445,66458.68,34926,2.75,32,
+8,,2,106,7/2/2016,66733.4,19038,47695.4,14525,2.25,32,
+9,2,3,197,12/23/2007,7936.9,1008,6928.9,3582,2.54,26,
+10,86,2,283,5/28/2013,61231.44,12524,48707.44,5224,2.63,37,
+11,16,8,42,10/16/2008,6291.68,1038,5253.68,4189,2.57,40,
+12,4,6,82,9/3/2008,71183.79,17627,53556.79,41946,2.04,38,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+13,5,6,139,11/16/2005,85312.0,23867,61445.0,45780,2.16,33,
+14,85,4,67,9/24/2016,15804.85,735,15069.85,9479,1.98,32,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+15,84,2,21,11/5/2005,74297.77,13083,61214.77,38128,0.8,26,
+16,12,10,11,1/11/2017,57519.1,5432,52087.1,23902,1.71,41,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+17,91,2,152,3/6/2013,27432.97,6659,20773.97,45,2.42,43,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+18,,7,117,5/21/2017,20282.65,323,19959.65,3910,0.11,46,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl."
+19,,4,29,1/17/2016,38565.32,5869,32696.32,31292,2.6,32,
+20,17,7,239,10/25/2008,96200.07,9679,86521.07,50489,1.62,42,
+21,13,7,154,3/22/2012,16071.55,320,15751.55,5998,1.47,48,
+22,19,1,138,6/21/2014,53486.91,8593,44893.91,44020,0.36,26,
+23,,4,265,2/29/2016,64556.54,17106,47450.54,14134,1.6,25,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+24,29,6,127,4/12/2015,78711.68,9848,68863.68,23806,1.73,25,
+25,41,7,229,2/2/2013,98051.47,16151,81900.47,70766,0.37,26,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh."
+26,10,6,168,2/5/2013,81003.25,6603,74400.25,37488,2.47,30,
+27,,7,30,11/17/2008,41869.01,8476,33393.01,32326,0.2,25,
+28,31,10,240,11/6/2014,14336.84,3859,10477.84,2194,0.48,39,
+29,25,8,104,8/28/2008,38167.21,4282,33885.21,16830,2.1,39,
+30,14,6,286,11/29/2005,46553.73,7520,39033.73,16896,1.86,30,
+31,,2,42,4/4/2006,37783.42,8666,29117.42,22216,1.93,31,
+32,,7,183,1/6/2012,34138.13,154,33984.13,19849,1.59,32,
+33,59,9,218,8/9/2014,7260.23,1471,5789.23,4747,0.24,36,
+34,12,2,185,3/13/2017,70711.03,531,70180.03,69217,2.24,25,
+35,24,6,235,10/14/2009,85051.81,23380,61671.81,48830,1.78,46,
+36,,8,19,3/13/2016,58507.88,8495,50012.88,30090,2.52,26,
+37,,1,33,5/26/2016,66084.35,18078,48006.35,44388,1.91,35,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+38,90,6,80,6/30/2012,56882.98,2317,54565.98,31798,1.39,41,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+39,29,9,254,11/20/2017,65462.75,805,64657.75,21884,2.94,29,
+40,96,9,246,6/14/2005,56005.42,10773,45232.42,28827,1.7,40,
+41,,8,286,7/21/2005,82245.57,3112,79133.57,39806,0.52,35,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+42,26,6,87,12/7/2015,2767.94,181,2586.94,444,0.26,27,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+43,99,4,220,12/2/2009,46856.75,7047,39809.75,7558,1.83,30,
+44,61,7,40,6/22/2009,78944.89,23069,55875.89,3281,0.91,44,
+45,51,3,88,4/10/2008,72520.71,2667,69853.71,45043,2.44,32,
+46,,9,220,6/8/2010,58134.19,16486,41648.19,11208,2.48,29,
+47,36,3,202,12/16/2012,72384.59,21701,50683.59,39693,0.72,28,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+48,,9,11,3/23/2007,65909.63,980,64929.63,11442,2.87,41,
+49,46,6,152,6/13/2009,62933.48,13665,49268.48,3020,0.36,33,
+50,84,1,173,8/2/2011,44638.33,4375,40263.33,16379,0.5,39,
+51,48,6,256,11/16/2013,27795.72,4371,23424.72,13236,2.09,25,
+52,45,3,245,6/14/2010,46319.01,12664,33655.01,12945,0.49,39,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis."
+53,2,6,141,9/8/2008,87440.53,10341,77099.53,13295,2.51,26,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+54,92,1,237,3/6/2015,12246.5,726,11520.5,5697,0.1,33,
+55,47,10,36,7/23/2016,53581.35,13650,39931.35,12049,0.87,25,
+56,73,7,163,12/5/2009,86140.4,8237,77903.4,60055,0.51,39,
+57,,2,110,3/3/2006,59534.33,13031,46503.33,31319,1.04,43,"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio."
+58,,7,145,9/17/2010,62704.63,9219,53485.63,12390,0.32,36,
+59,,10,14,10/12/2013,2422.99,188,2234.99,426,2.43,44,
+60,33,1,145,5/28/2006,35061.96,7816,27245.96,25216,2.75,42,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+61,26,3,244,10/14/2008,23084.99,166,22918.99,14057,1.04,34,
+62,,3,82,6/19/2010,87472.45,4073,83399.45,54299,0.41,42,
+63,21,9,176,10/7/2014,72838.67,13053,59785.67,41782,1.03,26,
+64,15,10,140,11/2/2011,48332.82,13127,35205.82,27914,0.7,45,"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+65,,9,142,10/21/2005,82658.3,19150,63508.3,35390,2.3,44,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+66,77,6,140,7/20/2017,37003.8,11093,25910.8,23102,1.9,38,
+67,46,10,86,7/31/2016,19161.06,1697,17464.06,5637,0.69,31,
+68,27,6,6,11/28/2005,58030.2,8593,49437.2,15401,2.42,48,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus."
+69,96,7,38,10/22/2013,89527.02,2988,86539.02,60161,0.51,38,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+70,44,6,297,12/19/2017,74576.53,4448,70128.53,44439,1.76,47,
+71,7,1,68,10/25/2009,15670.62,2822,12848.62,9355,2.16,45,
+72,27,7,178,12/6/2011,92137.11,9798,82339.11,4061,0.26,46,
+73,,5,76,8/26/2007,30052.4,649,29403.4,23277,2.18,29,
+74,,4,162,6/29/2017,18360.84,3668,14692.84,7320,0.63,33,
+75,92,9,102,5/6/2015,56365.38,9507,46858.38,25296,2.81,41,
+76,,5,34,8/22/2016,45931.29,8613,37318.29,2590,0.45,25,
+77,17,10,60,4/14/2011,13597.51,290,13307.51,12678,0.46,34,
+78,44,4,281,7/21/2013,80207.0,73,80134.0,72587,1.57,39,
+79,9,9,110,7/21/2015,6201.55,665,5536.55,5359,0.09,36,
+80,,8,24,7/17/2006,32586.79,7415,25171.79,15162,0.33,32,
+81,99,3,221,1/12/2014,1647.29,478,1169.29,1057,0.55,41,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+82,9,7,142,2/24/2006,29912.38,4531,25381.38,3958,1.18,39,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+83,85,10,262,1/1/2013,18156.7,3929,14227.7,11966,1.04,43,
+84,56,10,282,8/4/2007,53313.27,3367,49946.27,1885,0.92,39,
+85,93,8,291,1/24/2007,24601.73,7007,17594.73,10118,0.08,34,
+86,30,10,79,1/6/2017,64275.96,1048,63227.96,62478,2.28,35,
+87,91,1,251,12/22/2016,53680.18,9342,44338.18,36696,1.32,31,
+88,74,3,199,9/11/2008,25951.47,6493,19458.47,14864,0.86,32,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+89,,7,5,2/14/2006,65304.8,3466,61838.8,55426,1.29,25,
+90,65,8,19,3/12/2009,99712.95,7576,92136.95,31100,1.34,38,
+91,37,4,289,4/4/2011,98840.47,26439,72401.47,59170,0.7,34,
+92,95,10,111,11/14/2007,52647.88,12415,40232.88,20712,1.69,31,
+93,,9,125,4/15/2007,48479.58,1498,46981.58,36082,2.26,45,
+94,,6,64,8/17/2012,33011.55,9494,23517.55,21798,1.71,30,
+95,24,7,140,7/23/2017,24922.49,24,24898.49,8644,1.69,24,
+96,,2,44,5/6/2011,50772.37,1684,49088.37,5879,2.07,37,
+97,80,1,20,10/18/2012,99966.15,21921,78045.15,33002,1.32,44,
+98,67,6,243,6/17/2013,78611.84,19605,59006.84,7897,0.11,38,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+99,23,4,235,10/30/2010,10204.47,2119,8085.47,4278,2.54,40,
+100,14,2,187,6/12/2015,22569.01,2015,20554.01,1161,1.46,26,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+101,70,1,171,12/18/2012,25773.51,5584,20189.51,3885,0.06,48,
+102,41,3,290,3/12/2014,36532.98,3230,33302.98,23789,1.81,38,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum."
+103,84,9,28,12/18/2016,66501.58,15819,50682.58,11547,1.58,47,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+104,15,9,88,12/5/2005,64374.32,14059,50315.32,8048,2.22,41,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+105,94,8,278,2/9/2009,86564.3,13591,72973.3,71842,1.99,40,
+106,38,1,257,9/8/2016,8610.64,1005,7605.64,481,0.66,41,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus."
+107,6,7,229,10/21/2013,66846.55,13144,53702.55,53587,2.54,32,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+108,24,2,239,10/26/2005,10455.37,3127,7328.37,3714,1.67,30,
+109,57,5,9,2/24/2014,17538.24,3325,14213.24,1804,1.14,26,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+110,11,10,294,12/28/2008,93534.34,2669,90865.34,8216,0.19,40,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+111,62,4,148,5/28/2008,23862.2,1610,22252.2,11975,0.59,31,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+112,,3,210,5/17/2016,61771.07,5589,56182.07,51604,2.03,45,
+113,39,8,4,4/20/2016,76033.92,13144,62889.92,39566,1.6,33,
+114,56,8,247,3/27/2016,12269.58,482,11787.58,7366,1.81,36,
+115,,8,6,11/7/2007,66448.7,19762,46686.7,30875,1.2,35,
+116,,5,174,6/30/2010,88139.34,5572,82567.34,35531,2.38,32,
+117,89,2,64,4/8/2017,18.36,0,18.36,10,1.35,45,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+118,59,5,238,4/24/2009,73344.59,15962,57382.59,34658,0.68,32,
+119,100,2,208,5/6/2006,64278.94,6591,57687.94,20246,1.78,31,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+120,9,8,206,11/26/2011,86748.76,2155,84593.76,71712,1.18,39,
+121,,3,180,8/2/2013,93859.64,9179,84680.64,32572,0.45,24,
+122,,6,256,9/15/2017,52964.52,1647,51317.52,10692,0.56,36,
+123,36,10,105,7/23/2007,69138.03,20214,48924.03,46645,1.7,48,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+124,57,3,66,9/13/2016,45712.49,12136,33576.49,25996,1.39,25,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+125,98,7,124,8/25/2015,5434.04,735,4699.04,1393,0.11,42,"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+126,79,10,57,5/6/2014,23160.23,4060,19100.23,8997,2.01,32,
+127,67,5,10,12/15/2005,1799.03,219,1580.03,357,2.7,42,
+128,74,6,212,1/30/2008,10649.53,1852,8797.53,4853,2.38,45,
+129,67,2,253,8/3/2013,61558.92,16214,45344.92,8280,2.83,46,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+130,,1,139,10/8/2016,87470.31,21975,65495.31,11914,2.51,32,
+131,31,6,112,6/15/2017,74425.02,10179,64246.02,12655,2.32,41,
+132,17,4,140,1/27/2012,10602.25,2793,7809.25,306,2.28,35,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+133,99,6,201,11/4/2010,95675.21,20362,75313.21,35108,0.97,30,
+134,20,8,66,12/2/2013,19419.82,1305,18114.82,5467,0.11,45,
+135,66,4,75,7/16/2012,86396.85,11358,75038.85,55010,2.75,39,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+136,,4,150,10/31/2017,20822.16,4520,16302.16,4437,2.45,43,
+137,,5,247,9/29/2009,39791.09,1479,38312.09,11175,1.4,46,
+138,13,5,151,10/28/2017,13718.89,164,13554.89,69,0.85,40,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+139,27,10,151,5/5/2010,14824.83,386,14438.83,3759,0.15,29,
+140,37,7,70,9/21/2017,73587.68,508,73079.68,8915,2.63,28,
+141,,2,152,3/19/2011,128.24,4,124.24,44,2.9,33,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+142,32,9,214,8/1/2011,13197.83,3325,9872.83,4570,2.87,39,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+143,38,8,299,3/6/2012,72047.44,13878,58169.44,37244,1.92,24,
+144,10,9,53,6/16/2012,72484.05,15730,56754.05,31709,0.78,29,
+145,,3,279,3/31/2018,72296.42,13591,58705.42,26217,0.92,42,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+146,39,9,99,8/4/2014,38174.87,8989,29185.87,6639,1.42,42,
+147,58,3,55,1/15/2016,88965.17,14786,74179.17,17431,0.48,34,
+148,33,9,74,4/29/2017,60538.84,14816,45722.84,18165,2.72,30,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst."
+149,25,7,150,1/27/2006,30956.03,4275,26681.03,23445,0.15,35,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+150,9,1,86,2/19/2007,7154.26,1652,5502.26,4060,1.63,45,
+151,93,10,55,1/15/2016,99059.71,25337,73722.71,60712,1.14,25,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi."
+152,51,5,177,1/3/2017,95981.87,12046,83935.87,53921,0.61,36,
+153,65,1,174,8/2/2011,75639.08,4109,71530.08,45147,2.4,36,"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+154,42,9,188,5/28/2007,64105.21,3975,60130.21,16186,2.92,34,
+155,81,3,72,10/18/2005,22226.81,6636,15590.81,8834,2.11,37,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+156,,9,44,10/31/2012,24756.61,4354,20402.61,521,0.05,24,
+157,76,4,124,4/3/2014,65880.92,7054,58826.92,43762,0.9,41,
+158,,1,8,1/10/2010,62441.14,14721,47720.14,32670,1.41,32,
+159,4,3,36,5/25/2007,92917.26,18294,74623.26,65237,1.35,27,
+160,89,2,173,1/20/2018,25955.8,5857,20098.8,2952,2.75,31,
+161,27,8,273,4/4/2007,21981.03,1014,20967.03,7772,1.54,46,
+162,13,2,274,12/30/2009,43017.42,2,43015.42,23647,1.18,34,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat."
+163,,3,172,6/12/2012,81792.52,2110,79682.52,28717,0.79,35,
+164,44,1,78,9/5/2011,64002.8,5234,58768.8,42811,2.99,26,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris."
+165,5,5,181,10/12/2014,46030.05,7591,38439.05,23188,2.94,39,
+166,,6,87,11/8/2010,88142.27,19447,68695.27,29281,2.5,47,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus."
+167,57,8,147,1/8/2018,22152.82,6192,15960.82,12201,2.97,47,
+168,93,8,290,10/24/2008,17362.5,4343,13019.5,11647,0.09,40,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+169,59,1,103,6/14/2008,64183.76,18754,45429.76,25036,0.5,45,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+170,30,1,30,1/27/2007,49.8,12,37.8,25,0.75,35,"In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi."
+171,88,4,183,8/6/2016,49532.14,13984,35548.14,10564,0.4,26,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo."
+172,85,8,137,8/22/2010,24443.13,3804,20639.13,16208,0.55,43,
+173,54,2,8,11/4/2007,90714.09,23980,66734.09,10152,0.27,48,
+174,,1,92,6/12/2016,48143.64,1873,46270.64,41057,2.0,36,
+175,58,3,218,10/26/2015,38131.99,1096,37035.99,24806,2.64,40,"In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi."
+176,93,10,152,12/8/2005,94853.52,3518,91335.52,50997,0.82,40,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+177,58,5,140,1/3/2010,40308.39,8039,32269.39,5305,0.67,42,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+178,32,9,14,8/18/2016,71882.66,8060,63822.66,49916,2.59,38,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum."
+179,34,8,167,4/13/2017,52655.42,11896,40759.42,27816,2.25,36,"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+180,31,7,104,5/19/2016,18376.95,586,17790.95,8222,1.63,26,
+181,93,10,16,7/3/2014,61766.81,8694,53072.81,16707,2.85,48,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+182,75,7,48,12/22/2017,98438.63,22089,76349.63,36790,1.83,36,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+183,38,2,30,9/1/2014,69759.74,13183,56576.74,48818,0.94,24,Fusce consequat. Nulla nisl. Nunc nisl.
+184,28,10,195,5/21/2013,52771.22,11132,41639.22,13216,2.26,36,
+185,,2,113,8/12/2009,96303.53,6755,89548.53,72605,0.09,45,
+186,,6,146,11/17/2011,43815.06,9661,34154.06,15787,1.8,31,
+187,40,4,167,9/28/2012,49329.87,10501,38828.87,4310,1.89,44,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+188,51,4,130,11/12/2006,33524.49,9478,24046.49,9501,0.76,29,
+189,,6,173,12/10/2015,30765.77,9044,21721.77,7899,0.87,32,
+190,83,6,126,2/28/2017,26779.45,5381,21398.45,8696,0.95,39,
+191,34,3,22,5/10/2007,55099.78,5502,49597.78,31965,0.14,40,
+192,11,7,268,9/20/2006,31739.34,1461,30278.34,19406,0.93,29,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+193,11,4,130,12/17/2005,92848.34,11723,81125.34,76487,2.44,42,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+194,82,6,273,2/20/2009,88972.42,20185,68787.42,54633,2.15,42,
+195,,4,244,11/17/2007,3174.82,493,2681.82,781,2.38,39,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+196,21,10,222,8/20/2015,96612.18,10949,85663.18,26914,2.14,25,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+197,71,4,20,4/16/2012,70054.27,17991,52063.27,50589,1.39,31,
+198,,6,167,3/9/2006,74673.65,4961,69712.65,46293,1.59,35,
+199,64,10,156,11/8/2009,28301.61,1334,26967.61,9801,0.17,43,
+200,28,1,40,9/23/2005,46811.37,2462,44349.37,14488,0.57,26,
+201,,3,61,2/11/2010,96258.22,9946,86312.22,60611,1.19,24,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+202,30,1,169,5/3/2007,38602.47,7018,31584.47,22340,2.72,28,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+203,63,2,281,8/25/2016,3911.86,966,2945.86,480,1.57,25,
+204,53,1,34,2/7/2006,21757.82,6157,15600.82,13537,1.17,44,
+205,43,5,125,3/14/2006,74675.17,10723,63952.17,3103,0.52,38,"Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus."
+206,,8,74,6/3/2006,49819.89,6972,42847.89,8845,0.25,45,
+207,40,8,134,1/2/2009,69633.35,1792,67841.35,29202,1.97,32,
+208,35,7,146,9/3/2008,248.14,51,197.14,82,2.45,35,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+209,79,10,20,1/1/2013,23284.46,2133,21151.46,18408,2.43,26,
+210,,4,62,10/23/2015,48917.53,3755,45162.53,22427,0.86,31,
+211,,8,246,12/24/2017,22963.89,2017,20946.89,17344,0.85,42,
+212,26,1,21,6/19/2006,43607.33,6413,37194.33,16281,1.32,35,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+213,,2,242,8/27/2007,15104.39,853,14251.39,3795,1.54,33,
+214,88,9,265,4/11/2008,58957.9,9430,49527.9,143,0.55,26,
+215,33,1,133,4/11/2014,14760.64,1605,13155.64,12045,2.3,37,"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+216,28,3,243,12/15/2009,78474.76,20689,57785.76,31061,2.78,47,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+217,93,4,165,10/3/2009,79030.29,10542,68488.29,55927,1.93,24,
+218,38,8,153,9/27/2010,46248.05,3703,42545.05,26339,2.81,29,
+219,71,2,70,6/2/2013,46438.92,12800,33638.92,25639,1.02,31,
+220,6,2,299,8/13/2013,46549.37,4017,42532.37,27467,1.96,37,
+221,24,4,135,10/6/2010,13309.21,1005,12304.21,4937,1.69,40,
+222,71,10,99,10/3/2011,83608.29,19145,64463.29,25171,2.58,26,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst."
+223,57,5,260,11/3/2006,32777.82,1170,31607.82,18209,2.91,36,
+224,32,10,16,6/3/2009,85776.1,23768,62008.1,40185,2.56,36,
+225,86,7,261,7/15/2011,9875.78,804,9071.78,1739,2.43,37,
+226,32,5,71,11/9/2010,24709.1,3620,21089.1,5993,1.76,36,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+227,44,6,78,7/26/2005,99696.42,17568,82128.42,19398,0.58,29,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+228,,8,151,8/14/2005,73867.42,7428,66439.42,21106,2.39,30,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+229,21,9,106,7/23/2017,60106.07,16776,43330.07,12056,2.38,36,"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+230,93,1,105,7/2/2005,60278.48,17890,42388.48,1746,1.43,25,
+231,59,6,196,1/30/2016,58558.1,10406,48152.1,24528,0.25,46,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+232,74,1,88,2/5/2007,49593.32,9350,40243.32,11883,0.05,43,"In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus."
+233,37,4,15,12/26/2007,49681.37,1335,48346.37,20341,0.81,44,
+234,37,8,10,9/15/2011,83285.22,11343,71942.22,64942,1.76,38,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+235,42,9,109,2/7/2008,97006.8,15843,81163.8,65138,1.99,46,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+236,93,6,13,4/18/2014,43332.92,8540,34792.92,1569,2.01,45,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+237,75,2,140,4/30/2009,55642.01,15409,40233.01,2018,1.11,29,
+238,75,3,136,4/8/2006,12363.65,1040,11323.65,3953,2.5,30,
+239,,9,66,11/16/2013,99925.34,11857,88068.34,893,0.85,25,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+240,96,8,37,5/19/2014,94504.37,2695,91809.37,88211,1.85,29,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+241,76,4,118,2/3/2013,97165.82,20993,76172.82,66516,1.94,44,
+242,62,10,194,1/18/2017,71074.77,15196,55878.77,26950,1.23,30,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+243,97,4,173,1/4/2008,38435.11,9556,28879.11,24567,0.69,47,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+244,37,4,143,8/1/2009,65645.05,7860,57785.05,13432,1.6,37,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+245,24,4,73,9/17/2015,15637.39,290,15347.39,4450,1.32,43,
+246,,10,292,3/27/2007,65269.82,7336,57933.82,25131,2.43,46,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+247,49,8,178,5/29/2009,61471.45,17008,44463.45,14733,0.92,47,"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+248,85,5,220,12/26/2009,6669.38,1933,4736.38,2558,0.9,26,
+249,82,2,7,10/22/2012,47632.29,6708,40924.29,24384,0.38,35,
+250,25,8,110,6/3/2007,4192.12,748,3444.12,1122,2.99,29,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+251,95,4,115,9/6/2012,69376.78,6312,63064.78,53150,2.17,38,
+252,81,10,279,1/14/2018,45464.7,12632,32832.7,18804,0.93,44,
+253,5,8,175,6/17/2010,17146.11,4142,13004.11,3407,0.55,26,
+254,70,3,187,3/22/2015,77799.03,19687,58112.03,36507,1.98,25,
+255,29,7,5,12/3/2013,39436.02,8586,30850.02,20784,2.4,27,
+256,51,10,89,9/7/2017,85796.3,4842,80954.3,63144,1.69,39,"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+257,,10,151,3/18/2015,38058.36,9703,28355.36,10050,0.25,42,"In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus."
+258,36,5,223,3/16/2006,36218.39,6205,30013.39,15707,2.96,42,
+259,22,6,135,5/13/2006,52097.44,5827,46270.44,25053,2.08,48,
+260,5,7,39,1/13/2017,94976.09,2732,92244.09,41140,1.7,35,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+261,20,8,84,12/8/2008,13186.61,2909,10277.61,9769,2.37,30,
+262,72,5,208,3/25/2009,34373.02,3537,30836.02,4217,2.46,29,
+263,33,2,71,1/6/2008,30135.42,8008,22127.42,7620,0.28,32,
+264,80,2,6,2/27/2006,85620.9,4603,81017.9,8703,2.9,38,
+265,56,2,228,7/23/2014,7867.24,969,6898.24,886,1.67,38,"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+266,7,10,295,5/25/2015,91176.05,23619,67557.05,40208,1.52,24,"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque."
+267,40,2,176,7/6/2006,34011.75,3515,30496.75,5630,0.19,27,
+268,35,1,269,4/24/2009,10328.99,102,10226.99,4204,2.57,38,
+269,56,9,251,9/9/2015,13615.51,362,13253.51,5835,1.39,39,
+270,68,8,39,9/30/2009,73940.81,17896,56044.81,35309,2.47,35,
+271,78,3,65,5/18/2016,10706.65,670,10036.65,6990,2.41,40,
+272,1,9,16,9/14/2009,20903.4,1884,19019.4,7004,2.58,38,
+273,80,8,138,1/18/2013,17344.77,2390,14954.77,7089,1.72,31,
+274,27,8,4,8/27/2016,21179.76,331,20848.76,5769,1.22,30,
+275,,10,46,1/9/2006,18908.46,4485,14423.46,1098,0.57,48,
+276,70,4,251,8/27/2013,72921.5,8357,64564.5,19475,0.38,35,
+277,54,3,172,3/10/2008,97114.0,9305,87809.0,55812,1.74,37,
+278,,7,290,10/18/2006,55050.01,15063,39987.01,15583,1.79,31,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus."
+279,11,7,194,9/4/2008,71181.54,8034,63147.54,4531,2.2,31,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum."
+280,7,8,95,12/22/2015,83606.61,22507,61099.61,27068,1.48,47,
+281,31,2,148,5/17/2014,78569.55,7152,71417.55,71126,2.49,26,
+282,55,3,6,9/17/2012,96908.51,23392,73516.51,64533,2.64,48,
+283,19,5,206,7/21/2014,75465.73,17043,58422.73,8875,2.3,38,
+284,,2,102,6/10/2013,43106.33,4062,39044.33,727,0.14,28,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+285,31,5,39,4/20/2007,32514.3,4685,27829.3,16040,2.68,39,
+286,60,3,80,1/9/2011,97167.69,17917,79250.69,4811,2.5,35,
+287,,5,145,6/13/2007,98988.52,25994,72994.52,65514,1.33,43,
+288,13,2,52,9/19/2011,42676.46,4613,38063.46,10906,2.17,25,
+289,31,6,151,1/18/2006,41171.69,4393,36778.69,24072,2.92,39,
+290,95,2,214,6/11/2012,51525.68,1904,49621.68,9687,1.46,38,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+291,21,9,176,8/15/2009,16314.95,1169,15145.95,4756,2.69,46,
+292,9,8,96,3/27/2017,85132.73,5375,79757.73,79627,2.21,30,
+293,13,4,190,10/7/2008,53783.31,2855,50928.31,24311,0.56,37,
+294,1,9,288,12/13/2015,14376.11,3641,10735.11,1605,1.47,24,
+295,74,2,203,7/29/2008,57105.49,3763,53342.49,51413,0.9,46,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit."
+296,47,8,197,12/27/2014,44611.04,6170,38441.04,33168,0.78,36,
+297,61,4,231,2/28/2007,24048.09,540,23508.09,11237,2.23,31,
+298,11,2,159,1/16/2016,66487.16,18158,48329.16,20560,0.45,32,
+299,36,8,288,9/21/2016,46779.46,2296,44483.46,18828,1.81,35,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+300,52,4,138,7/5/2013,92509.09,21125,71384.09,26938,0.54,41,
+301,,8,289,12/18/2010,83874.26,16165,67709.26,14363,0.35,29,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi."
+302,48,3,225,10/22/2017,1216.6,136,1080.6,133,2.78,39,
+303,3,7,248,10/13/2005,51520.29,6692,44828.29,40648,2.55,45,
+304,95,1,244,6/4/2007,74522.3,5023,69499.3,65901,0.34,27,
+305,44,10,160,7/16/2016,23889.34,2567,21322.34,10483,2.45,26,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+306,,7,196,8/12/2012,70192.12,20145,50047.12,47694,2.95,25,
+307,84,8,239,12/10/2012,76614.85,1839,74775.85,13934,0.97,40,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+308,,3,12,6/24/2005,9728.8,1640,8088.8,3016,0.66,33,
+309,84,2,161,2/5/2016,93337.52,15183,78154.52,9849,1.57,46,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+310,,3,289,7/18/2007,48724.65,9346,39378.65,11644,1.29,33,"Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+311,25,7,99,8/1/2011,66966.27,7893,59073.27,39371,0.53,39,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+312,74,10,105,8/8/2008,68767.3,6538,62229.3,18328,1.97,31,
+313,19,3,241,4/5/2013,77653.0,14489,63164.0,54750,0.63,43,
+314,71,4,215,11/9/2012,88316.73,19646,68670.73,42492,0.9,26,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+315,1,4,288,9/10/2006,83818.84,5687,78131.84,38300,1.32,36,"Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+316,,6,147,5/23/2006,35927.78,9154,26773.78,9765,1.71,45,
+317,66,3,223,10/16/2014,33463.52,982,32481.52,9711,0.9,36,
+318,60,3,227,2/6/2015,36990.92,10385,26605.92,9339,1.88,36,
+319,18,5,242,1/28/2007,51151.58,1700,49451.58,18825,0.37,37,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis."
+320,30,2,292,6/5/2017,55943.55,7695,48248.55,14279,0.42,28,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+321,68,6,193,11/4/2011,76656.26,2886,73770.26,36445,2.21,43,
+322,48,3,90,2/20/2010,74279.47,16509,57770.47,55574,1.08,30,
+323,89,6,282,6/11/2010,80841.85,15048,65793.85,30606,0.4,47,
+324,10,1,75,5/1/2016,34813.65,1785,33028.65,8031,0.58,30,
+325,7,9,185,7/4/2009,81838.42,4676,77162.42,44204,2.28,35,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+326,91,5,66,12/7/2017,76821.78,7642,69179.78,1464,1.22,35,
+327,83,1,48,3/26/2018,47007.06,8419,38588.06,23832,1.5,25,
+328,36,5,296,2/3/2017,26377.59,3015,23362.59,15854,1.59,29,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+329,39,4,17,4/17/2014,22991.98,4978,18013.98,16781,0.1,40,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+330,67,1,79,6/12/2016,72176.28,3557,68619.28,56116,2.48,44,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+331,20,3,127,4/30/2015,2637.22,623,2014.22,884,2.39,34,
+332,,1,299,7/19/2008,10363.57,167,10196.57,6648,0.56,40,
+333,92,8,178,7/9/2008,50225.97,2903,47322.97,34135,1.16,38,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+334,89,10,71,11/16/2010,78640.08,13243,65397.08,9859,1.3,29,
+335,,9,84,10/6/2014,18523.57,153,18370.57,4749,1.84,28,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+336,,9,150,5/5/2016,98542.19,26074,72468.19,6118,2.84,41,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+337,,3,54,12/11/2009,19286.45,2017,17269.45,7887,2.48,24,
+338,56,6,27,6/3/2012,13587.88,2787,10800.88,9909,1.31,44,
+339,13,3,291,8/20/2015,42059.69,12042,30017.69,2445,2.84,34,
+340,6,8,136,1/9/2014,91874.42,23949,67925.42,22141,0.76,38,"Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+341,40,10,76,12/17/2011,84481.64,1711,82770.64,5471,2.04,36,
+342,,7,29,12/24/2014,19850.7,1596,18254.7,5887,0.69,47,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+343,51,6,130,8/24/2005,29583.68,7793,21790.68,9536,1.51,34,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus."
+344,14,7,43,3/8/2015,20196.02,4288,15908.02,7273,2.55,28,
+345,12,1,195,7/26/2012,91448.52,9251,82197.52,13787,1.49,42,"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+346,,5,60,5/21/2013,16424.36,3509,12915.36,3440,0.33,48,
+347,31,2,114,12/1/2009,78587.23,13413,65174.23,54428,0.81,32,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus."
+348,75,9,245,9/21/2009,43908.44,6444,37464.44,24745,1.25,27,"Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+349,,2,78,5/3/2014,16614.74,2267,14347.74,8170,2.07,39,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+350,86,8,87,2/2/2007,53438.82,7761,45677.82,11298,0.25,47,
+351,79,7,14,5/14/2010,5019.54,223,4796.54,1924,1.18,34,
+352,14,8,293,9/12/2017,75053.36,18613,56440.36,5588,1.77,36,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem."
+353,91,10,127,8/29/2008,87415.93,23608,63807.93,12302,0.37,29,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+354,12,6,19,8/17/2007,76295.95,21694,54601.95,29903,1.6,41,
+355,22,9,250,8/24/2014,17946.38,1757,16189.38,7051,0.64,30,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+356,,5,55,6/20/2013,89422.53,451,88971.53,20287,2.21,40,"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet."
+357,61,2,225,10/22/2012,53769.38,10787,42982.38,20864,0.94,30,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi."
+358,,4,271,11/3/2008,33847.79,8620,25227.79,18061,0.3,47,
+359,,7,187,3/18/2008,1295.05,228,1067.05,806,2.09,40,
+360,88,8,269,11/8/2015,13060.92,2457,10603.92,1335,2.54,42,
+361,83,1,221,1/12/2016,8969.93,1695,7274.93,1437,1.08,25,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+362,68,5,26,8/10/2011,80264.65,23438,56826.65,12603,2.86,39,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+363,45,8,180,4/15/2012,22200.73,1056,21144.73,14367,0.44,28,
+364,91,8,35,3/9/2007,59708.0,15313,44395.0,33762,0.56,30,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+365,73,3,124,11/27/2007,95900.71,9730,86170.71,61159,1.87,36,
+366,,7,67,8/9/2008,37603.84,1613,35990.84,12003,0.17,25,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+367,,7,249,5/9/2013,66619.25,14219,52400.25,47399,2.28,34,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+368,80,8,42,9/8/2008,12151.62,659,11492.62,78,0.99,32,
+369,30,3,210,3/29/2015,92294.16,18954,73340.16,5597,2.06,30,
+370,65,1,122,10/20/2011,37538.18,8206,29332.18,15614,2.19,45,
+371,4,7,270,6/12/2016,57884.7,12536,45348.7,35009,2.53,26,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit."
+372,52,7,138,12/16/2016,56210.37,5704,50506.37,4213,2.99,32,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+373,,3,268,2/16/2012,48837.92,6641,42196.92,29939,2.7,46,"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque."
+374,,9,112,9/14/2008,80295.77,13799,66496.77,65373,1.42,30,"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet."
+375,33,7,111,4/19/2005,54276.34,13844,40432.34,3169,0.39,31,
+376,81,7,152,4/30/2017,69976.84,929,69047.84,60923,2.31,32,
+377,,8,184,8/7/2016,3170.73,351,2819.73,381,2.69,31,
+378,95,10,115,7/6/2011,68311.71,9867,58444.71,39562,0.03,42,
+379,,8,81,8/17/2012,91837.16,11238,80599.16,72423,2.39,24,
+380,,1,11,1/24/2016,10890.14,299,10591.14,4938,1.34,34,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+381,31,1,175,1/6/2007,72748.62,7917,64831.62,21465,2.75,28,
+382,64,3,226,11/24/2005,77936.2,3563,74373.2,25933,1.35,30,
+383,23,5,141,4/21/2011,98879.15,8776,90103.15,38899,0.45,48,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+384,63,9,30,12/29/2012,66359.51,620,65739.51,54807,2.19,33,
+385,96,7,294,1/2/2015,79145.77,2688,76457.77,7152,1.24,26,
+386,58,10,180,7/29/2016,48244.82,5336,42908.82,27943,2.8,24,In congue. Etiam justo. Etiam pretium iaculis justo.
+387,60,8,294,1/13/2015,57773.09,5448,52325.09,38172,1.59,41,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+388,38,7,72,8/11/2007,48512.22,9365,39147.22,5123,2.2,35,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+389,17,3,239,10/1/2012,70749.88,9934,60815.88,8075,1.23,41,
+390,53,4,95,10/20/2010,96494.43,20430,76064.43,36912,1.75,26,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+391,30,9,108,3/7/2018,10836.65,1095,9741.65,122,0.78,32,
+392,87,9,195,11/7/2012,43757.6,3973,39784.6,8208,0.59,48,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+393,,10,25,7/2/2014,83923.32,9067,74856.32,24779,2.75,46,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus."
+394,10,10,200,4/12/2016,63469.95,10606,52863.95,16709,2.68,34,
+395,,1,213,11/5/2015,51114.93,2030,49084.93,16267,2.66,36,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+396,22,7,9,11/14/2006,11762.15,1381,10381.15,5687,0.43,30,
+397,86,6,12,4/24/2008,72404.66,21653,50751.66,49604,1.48,40,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+398,100,6,273,4/18/2006,54472.97,7344,47128.97,16451,2.91,27,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+399,,10,220,2/15/2016,1473.12,231,1242.12,222,2.27,35,
+400,43,8,42,12/18/2008,41287.49,1568,39719.49,33027,0.05,46,
+401,18,8,296,2/3/2016,84282.41,11327,72955.41,23077,2.63,38,
+402,36,7,113,8/19/2014,11930.16,77,11853.16,3987,0.46,31,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+403,,10,212,6/3/2009,48934.86,902,48032.86,38426,0.57,39,
+404,35,9,20,2/23/2012,25719.66,5006,20713.66,17655,0.85,46,
+405,63,5,146,1/25/2016,46271.28,10141,36130.28,31345,1.16,42,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+406,,8,39,5/21/2015,42280.12,12333,29947.12,18755,1.22,32,
+407,68,8,108,1/9/2008,41235.93,3024,38211.93,21846,1.92,24,
+408,90,1,156,2/6/2013,89252.31,25890,63362.31,35017,0.89,39,
+409,25,7,43,4/30/2013,91648.42,11683,79965.42,63616,1.17,38,
+410,,1,288,4/22/2016,63090.31,11722,51368.31,16456,0.18,48,
+411,73,4,63,9/18/2009,43173.64,32,43141.64,21581,0.29,27,
+412,75,3,245,10/5/2009,25858.28,6543,19315.28,14113,2.77,48,
+413,29,2,250,4/1/2015,9113.2,88,9025.2,5887,0.92,28,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+414,53,2,61,1/31/2016,62427.71,7562,54865.71,30438,0.54,24,
+415,7,10,176,10/27/2015,21481.62,570,20911.62,2034,2.4,34,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+416,57,8,90,3/31/2018,21504.38,2372,19132.38,16136,2.11,34,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+417,49,2,30,12/9/2013,19984.79,4760,15224.79,13235,1.94,41,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit."
+418,78,5,26,3/3/2011,77763.03,439,77324.03,75105,1.81,36,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris."
+419,,9,171,8/5/2006,50702.24,2215,48487.24,18812,0.35,30,
+420,34,6,122,2/25/2015,31400.33,4236,27164.33,17353,0.31,34,
+421,34,6,256,7/4/2009,99871.07,18028,81843.07,8353,0.17,33,
+422,24,7,123,7/26/2013,48497.77,7896,40601.77,34013,2.91,29,
+423,,8,10,10/22/2013,14786.58,2170,12616.58,2909,0.76,45,
+424,47,2,199,2/8/2018,98106.47,12451,85655.47,26800,1.95,47,
+425,86,7,261,2/16/2012,7499.15,1923,5576.15,4552,0.39,46,
+426,,2,281,7/26/2008,80991.23,22713,58278.23,57139,0.16,41,
+427,76,8,69,8/10/2014,85679.82,20410,65269.82,8446,2.26,46,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+428,41,10,182,7/11/2010,36879.45,3570,33309.45,16170,2.62,47,
+429,55,6,79,9/3/2016,45842.2,12638,33204.2,22243,2.31,31,"In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus."
+430,85,10,260,2/24/2009,35465.31,8959,26506.31,24487,1.71,28,
+431,56,2,160,2/5/2009,45422.81,3208,42214.81,39146,1.47,37,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl."
+432,40,6,28,3/8/2010,53368.65,9408,43960.65,1548,1.52,45,
+433,64,1,228,4/25/2011,1972.37,373,1599.37,1179,1.86,41,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+434,63,1,272,3/24/2017,67554.57,4852,62702.57,47783,0.43,33,
+435,66,3,186,12/2/2009,2914.77,67,2847.77,2065,0.57,27,
+436,81,6,77,10/9/2013,70158.57,17115,53043.57,45116,1.58,31,
+437,78,10,101,12/4/2014,49531.26,8085,41446.26,18398,2.31,29,
+438,46,1,47,3/15/2012,22905.27,2578,20327.27,13293,1.36,41,
+439,84,5,141,7/13/2009,71668.17,7618,64050.17,62826,0.04,24,
+440,52,1,299,12/8/2009,20007.09,2569,17438.09,2526,2.93,42,
+441,,8,73,2/21/2009,38749.91,2649,36100.91,28964,1.41,44,
+442,,3,211,6/14/2013,58724.91,4045,54679.91,53909,0.35,35,"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+443,24,3,2,11/9/2010,2170.28,117,2053.28,1354,0.04,44,
+444,33,2,93,12/24/2009,58970.92,7856,51114.92,49137,1.39,26,
+445,,4,238,6/30/2017,31184.87,9229,21955.87,6209,1.93,46,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui."
+446,60,4,162,1/30/2008,12979.69,2994,9985.69,7890,0.79,39,
+447,88,10,276,9/8/2006,86277.61,21368,64909.61,15337,2.69,37,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui."
+448,79,9,102,10/31/2017,84549.17,8410,76139.17,30198,1.15,35,
+449,,8,283,9/5/2005,53962.0,3209,50753.0,31505,0.36,26,
+450,36,1,239,2/21/2007,12483.88,208,12275.88,7249,0.49,48,"In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi."
+451,47,5,237,4/14/2012,44804.93,7651,37153.93,10060,0.14,25,
+452,47,2,234,4/10/2005,10383.05,1386,8997.05,7055,2.87,43,
+453,28,10,95,6/22/2006,69108.19,858,68250.19,10840,2.14,32,
+454,8,4,48,2/28/2009,33417.51,590,32827.51,16265,1.82,41,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+455,97,3,203,9/14/2008,49777.87,3016,46761.87,30713,2.27,34,
+456,52,2,230,12/25/2017,88459.36,35,88424.36,8992,0.56,34,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+457,25,4,21,7/28/2009,2320.56,125,2195.56,1104,0.21,34,
+458,38,4,208,12/12/2006,96768.05,7567,89201.05,64844,0.21,41,"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+459,,5,179,1/16/2009,53480.66,14380,39100.66,6299,1.51,25,
+460,17,2,44,5/23/2011,11687.68,1242,10445.68,1493,0.54,25,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+461,24,9,166,6/13/2012,17384.66,3293,14091.66,4615,2.59,25,
+462,60,4,170,7/23/2011,58799.49,6495,52304.49,16366,2.5,46,
+463,73,4,50,10/2/2011,66850.6,8879,57971.6,46290,2.57,48,
+464,39,7,229,5/21/2016,90154.88,4447,85707.88,41694,1.99,37,
+465,68,3,50,4/13/2015,72846.5,17107,55739.5,14252,0.37,30,
+466,81,7,107,10/13/2012,48216.18,5822,42394.18,4726,0.4,38,
+467,,8,296,5/15/2011,69116.63,11095,58021.63,25694,2.17,42,
+468,45,3,135,5/7/2010,11963.87,1187,10776.87,6202,2.02,25,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+469,83,2,205,4/10/2008,17710.84,2218,15492.84,10179,2.1,45,
+470,89,8,158,7/1/2015,26352.63,3114,23238.63,375,0.26,35,"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+471,26,5,296,1/28/2013,33807.93,6329,27478.93,25975,1.02,41,
+472,16,2,276,6/30/2017,35257.5,8703,26554.5,4312,0.95,46,
+473,34,3,236,2/5/2010,72358.26,386,71972.26,31997,0.24,32,
+474,39,4,36,6/8/2017,22492.69,3827,18665.69,13257,1.01,42,
+475,14,2,247,3/16/2009,49708.71,4320,45388.71,36465,0.58,32,
+476,1,4,28,12/10/2012,96777.42,21354,75423.42,46299,2.06,42,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+477,,1,155,2/2/2011,65033.35,4621,60412.35,224,0.84,29,
+478,20,10,287,9/10/2011,2971.32,843,2128.32,1941,0.25,40,
+479,33,5,300,12/20/2008,39499.46,153,39346.46,25948,0.83,28,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+480,,6,70,2/23/2010,17676.6,3476,14200.6,10745,0.76,39,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+481,92,6,176,5/27/2007,13622.27,3873,9749.27,8152,0.21,30,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst."
+482,31,2,200,12/17/2016,15368.54,397,14971.54,5398,0.23,25,
+483,36,4,133,9/24/2009,92833.3,12017,80816.3,12440,1.8,40,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+484,17,8,243,1/29/2015,62676.73,5802,56874.73,10696,0.92,36,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+485,62,10,238,8/26/2009,63417.08,6419,56998.08,36756,2.33,45,
+486,63,8,94,10/1/2015,37486.79,9085,28401.79,25423,1.2,45,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+487,,1,170,6/23/2008,81207.2,8617,72590.2,53070,1.43,24,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus."
+488,33,7,12,4/24/2006,62978.07,11873,51105.07,914,2.22,29,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+489,99,7,143,1/26/2008,99597.89,16200,83397.89,41003,2.67,39,
+490,35,6,266,6/26/2007,48721.83,10438,38283.83,11842,0.15,31,
+491,73,10,174,9/7/2015,78048.24,11700,66348.24,28774,1.53,39,
+492,20,10,95,12/4/2007,70354.74,11764,58590.74,14797,1.94,25,
+493,62,1,95,10/6/2013,52143.46,8278,43865.46,9102,2.57,37,
+494,98,1,171,11/14/2013,98240.44,15104,83136.44,48023,1.04,41,"Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+495,69,5,22,7/19/2013,19746.4,299,19447.4,7261,2.63,42,"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+496,14,3,187,2/19/2012,18565.0,605,17960.0,17375,0.31,32,
+497,47,7,64,1/24/2017,8657.83,697,7960.83,6693,2.09,37,
+498,19,9,287,6/25/2006,44146.28,197,43949.28,6751,2.05,37,
+499,62,3,219,1/14/2006,67708.07,7160,60548.07,50768,1.67,46,
+500,29,7,108,12/15/2017,97763.27,18787,78976.27,8624,2.38,48,In congue. Etiam justo. Etiam pretium iaculis justo.

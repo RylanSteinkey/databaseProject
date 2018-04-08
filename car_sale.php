@@ -92,7 +92,7 @@
     </script>
     </head>
     <body>
-        <h1>Dealership Management System</h1>
+        <?php include 'header.php';?>
 
         <form action="sales.php" method="post">
             <fieldset>

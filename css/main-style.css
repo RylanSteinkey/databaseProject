@@ -37,8 +37,9 @@ li a:hover {
     width: 100%;
 }
 
-#tables td, #customers th {
+#tables td, th {
     border: 1px solid #ddd;
+    padding: 5px;
     
 }
 
