@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main-style.css">
+    </head>
+    <body>
+        <?php include 'header.php';?>
+        
+        <h2>Customer's Vehicles</h2>
+    
+        <table id="tables">
+            <tr>
+                <th>Customer ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Vehicle ID</th>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Year</th>
+            </tr>
+
+            <?php
+            $servername = "localhost";
+            $username = "root";
+            $password = "root";
+            $dbname = "dms_db";
+
+            // Create connection
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            // Check connection
+            if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+            } 
+
+            $sql = "SELECT customer.customer_id, customer.first_name, customer.last_name, vehicle.vehicle_id, vehicle.make, vehicle.model, vehicle.v_year FROM customer, vehicle WHERE vehicle.customer_id=customer.customer.id";
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+            // output data of each row
+                while($row = $result->fetch_assoc()) {
+                    echo "<tr>" . "<td>" . $row["c.customer_id"] . "</td>" . 
+                        "<td>" . $row["c.first_name"] . "</td>" . 
+                        "<td>" . $row["c.last_name"] . "</td>" . 
+                        "<td>" . $row["v.vehicle_id"] . "</td>" . 
+                        "<td>" . $row["v.make"] . "</td>" .
+                        "<td>" . $row["v.model"] . "</td>" .
+                        "<td>" . $row["v.v_year"] . "</td>" .
+                        "</tr>";
+                }
+            } else {
+                echo "0 results";
+            }
+            $conn->close();
+            ?>
+        </table>
+        
+    </body>
+    
+</html>
