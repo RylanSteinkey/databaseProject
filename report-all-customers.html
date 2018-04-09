@@ -9,22 +9,6 @@
         
         <h2>All Customers</h2>
         
-        <!--
-        <form method="post" action="">
-            <p>Search: <input type="text" name="s_query"> &nbsp; in: <select name="query_type">
-                <option value="first_name">First Name</option>
-                <option value="last_name">Last Name</option>
-                <option value="address">Address</option>
-                <option value="phone">Phone</option>
-                <option value="gender">Gender</option>
-                <option value="DOB">DOB</option>
-                <option value="tax_id">Tax ID</option>
-                <option value="email">Email</option>
-                <option value="num_days_late"># of Days Late</option>
-                <option value="avg_days_late">AVG Days Late</option>
-                </select></p>
-        </form>
-        -->
         <fieldset>
         <legend><h3>Search values</h3></legend>
         
@@ -111,6 +95,7 @@
                     }       
                 }
             }
+            
             function searchPhone() {
                 var input, filter, table, tr, td, i;
                 input = document.getElementById("phoneSearch");
@@ -128,6 +113,7 @@
                     }       
                 }
             }
+            
             function searchEmail() {
                 var input, filter, table, tr, td, i;
                 input = document.getElementById("emailSearch");

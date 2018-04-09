@@ -8,7 +8,18 @@
         <?php include 'header.php';?>
         
         <h2>Customer's Vehicles</h2>
-    
+        
+        <fieldset>
+        <legend><h3>Search values</h3></legend>
+        
+        <input type="text" id="nameSearch" onkeyup="searchName()" placeholder="Search for names.." size="50">
+        
+        <input type="text" id="makeSearch" onkeyup="searchMake()" placeholder="Search for Vehicle Makes.." size="30">
+            
+        <input type="text" id="modelSearch" onkeyup="searchModel()" placeholder="Search for Vehicle Models.." size="30">
+            
+        </fieldset>
+        <br/>
         <table id="tables">
             <tr>
                 <th>Customer ID</th>
@@ -33,19 +44,19 @@
                 die("Connection failed: " . $conn->connect_error);
             } 
 
-            $sql = "SELECT customer.customer_id, customer.first_name, customer.last_name, vehicle.vehicle_id, vehicle.make, vehicle.model, vehicle.v_year FROM customer, vehicle WHERE vehicle.customer_id=customer.customer.id";
+            $sql = "SELECT c.customer_id, c.first_name, c.last_name, v.vehicle_id, v.make, v.model, v.v_year FROM customer as c INNER JOIN vehicle as v ON v.customer_id = c.customer_id";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
             // output data of each row
                 while($row = $result->fetch_assoc()) {
-                    echo "<tr>" . "<td>" . $row["c.customer_id"] . "</td>" . 
-                        "<td>" . $row["c.first_name"] . "</td>" . 
-                        "<td>" . $row["c.last_name"] . "</td>" . 
-                        "<td>" . $row["v.vehicle_id"] . "</td>" . 
-                        "<td>" . $row["v.make"] . "</td>" .
-                        "<td>" . $row["v.model"] . "</td>" .
-                        "<td>" . $row["v.v_year"] . "</td>" .
+                    echo "<tr>" . "<td>" . $row["customer_id"] . "</td>" . 
+                        "<td>" . $row["first_name"] . "</td>" . 
+                        "<td>" . $row["last_name"] . "</td>" . 
+                        "<td>" . $row["vehicle_id"] . "</td>" . 
+                        "<td>" . $row["make"] . "</td>" .
+                        "<td>" . $row["model"] . "</td>" .
+                        "<td>" . $row["v_year"] . "</td>" .
                         "</tr>";
                 }
             } else {
@@ -54,7 +65,61 @@
             $conn->close();
             ?>
         </table>
-        
+            <script>
+            function searchName() {
+                var input, filter, table, tr, td, i;
+                input = document.getElementById("nameSearch");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("tables");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[1];
+                    if (td) {
+                        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }       
+                }
+            }
+            
+            function searchMake() {
+                var input, filter, table, tr, td, i;
+                input = document.getElementById("makeSearch");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("tables");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[4];
+                    if (td) {
+                        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }       
+                }
+            }
+            
+            function searchModel() {
+                var input, filter, table, tr, td, i;
+                input = document.getElementById("modelSearch");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("tables");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[5];
+                    if (td) {
+                        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }       
+                }
+            }
+        </script>    
     </body>
     
 </html>
