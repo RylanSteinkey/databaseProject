@@ -1,101 +1,201 @@
 customer_id,first_name,last_name,gender,DOB,phone,email,tax_id,num_late_payments,avg_days_late,address,street_name,city,province,postal_code,notes
-69-150-5487,Merrel,Chawkley,M,5/3/1979,105-131-7558,mchawkley0@prnewswire.com,772-24-3747,24,87,4 Monument Way,Loftsgordon,Batan,,,product
-80-283-7779,Ilyssa,Jeffers,F,7/21/1971,254-549-5014,ijeffers1@tinypic.com,341-11-3396,78,94,829 Nelson Avenue,Shelley,Fengyang,,,Organized
-28-660-6013,Beverley,Andriss,F,3/14/1973,903-741-1843,bandriss2@purevolume.com,199-47-9327,76,11,56 Dapin Circle,Paget,Vanderbijlpark,,1916,Integrated
-77-818-7359,Melicent,Dubbin,F,11/23/2000,658-300-7876,mdubbin3@pen.io,135-32-5371,57,86,6277 Grover Way,Mosinee,Longotea,,,secondary
-79-705-4358,Pete,Smale,M,12/31/1963,344-789-8373,psmale4@people.com.cn,503-60-6465,6,34,08 Bashford Center,Ridge Oak,Aveiras de Cima,Lisboa,2050-065,fresh-thinking
-48-397-9846,Jeannine,Backshell,F,2/2/2009,348-576-0790,jbackshell5@dell.com,838-27-6609,24,10,6 Rusk Trail,5th,Pom Prap Sattru Phai,,10100,responsive
-17-203-4434,Ronnie,Wavell,M,9/25/2014,510-822-6154,rwavell6@china.com.cn,381-92-4424,27,20,9382 Stoughton Point,Pleasure,Xishiqiao,,,installation
-70-649-8940,Sonya,Krzysztof,F,11/10/1975,334-465-2940,skrzysztof7@illinois.edu,843-84-5097,43,39,9139 Nobel Alley,Spaight,Phra Phutthabat,,18120,6th generation
-66-517-3437,Joete,Schrieves,F,6/20/1972,706-594-0766,jschrieves8@berkeley.edu,320-99-4880,14,8,7162 Acker Lane,Merchant,Tanlad,,8010,framework
-39-614-6265,Selena,Marsh,F,8/9/2015,890-184-8589,smarsh9@netlog.com,117-62-8665,71,77,8950 Atwood Street,Bunker Hill,Guisijan,,5705,projection
-04-590-8395,Vladimir,Beine,M,6/8/2013,533-376-2890,vbeinea@tinypic.com,390-64-2282,67,15,2453 Eliot Drive,International,Falāvarjān,,,5th generation
-26-443-8683,Al,Bowcock,M,3/25/1967,786-962-8664,abowcockb@npr.org,481-13-9073,40,61,8 Morningstar Pass,Blue Bill Park,Miami,Florida,33233,portal
-91-946-3510,Clarey,Lattimer,F,10/21/2005,787-764-2103,clattimerc@salon.com,725-39-5139,77,10,5492 Moulton Lane,Oneill,Lindavista,Oaxaca,70633,non-volatile
-56-770-5816,Sydel,Kowalski,F,12/26/1997,736-275-2630,skowalskid@ameblo.jp,619-65-6167,37,21,184 Monument Way,Melody,Codó,,65400-000,Networked
-14-428-4577,Abbot,Ashbee,M,1/10/1986,891-208-9118,aashbeee@arizona.edu,792-07-6532,79,85,51522 Thierer Place,Arrowood,Xinxing,,,portal
-68-447-9381,Desiri,Gibby,F,5/2/2001,486-542-0186,dgibbyf@so-net.ne.jp,879-88-9949,17,15,52 Memorial Terrace,Sunnyside,Manevychi,,,dedicated
-06-239-2528,Beltran,Hulcoop,M,7/28/2004,317-494-9425,bhulcoopg@baidu.com,108-66-8440,75,37,0068 Melvin Lane,1st,Vođinci,,32283,bifurcated
-61-721-8285,Audre,Treasure,F,12/30/1980,507-952-6937,atreasureh@google.co.uk,427-07-5584,44,15,7043 Clove Drive,Kinsman,Shardara,,,implementation
-63-882-4360,Lindon,Coveney,M,10/29/1967,366-352-7300,lcoveneyi@accuweather.com,811-69-4067,22,50,1 Dottie Pass,Forest Run,Batangtoru,,,Synergistic
-80-021-1159,Elinore,Beville,F,7/5/2012,697-604-2416,ebevillej@reference.com,599-98-6600,40,95,549 Marquette Plaza,Thompson,Kapenguria,,,Enterprise-wide
-17-592-7024,Heda,Paylie,F,10/27/1978,924-709-5421,hpayliek@answers.com,641-21-2713,43,45,5778 Homewood Park,Continental,Ḩammām Wāşil,,,systemic
-29-553-5395,Gordy,Close,M,1/1/2015,264-511-6860,gclosel@cornell.edu,100-36-6130,32,13,49 John Wall Center,Lunder,Grojec,,32-615,data-warehouse
-93-682-8093,Pattin,McCarroll,M,11/2/2014,923-466-8967,pmccarrollm@creativecommons.org,231-95-1025,1,96,81 Sloan Road,Nevada,Catbalogan,,6700,functionalities
-16-638-1516,Gregoire,Goodbar,M,5/26/1988,796-672-6782,ggoodbarn@japanpost.jp,354-80-1499,57,37,43 Straubel Drive,Bunting,Yong’an,,,forecast
-05-601-7869,Cathrin,Tayler,F,4/7/1995,896-509-6801,ctaylero@oakley.com,683-52-2608,9,62,02 Northview Drive,Waxwing,Tangxia,,,Mandatory
-88-548-6231,Hervey,Sheach,M,11/23/1985,765-543-4452,hsheachp@msu.edu,110-78-4251,94,3,411 Union Road,Mariners Cove,Paris La Défense,Île-de-France,92041 CEDEX,3rd generation
-62-657-3750,Haven,Streetfield,M,2/2/1988,767-728-6564,hstreetfieldq@dion.ne.jp,294-08-5646,61,52,89045 Eastwood Parkway,Helena,Nurmijärvi,,01901,Customer-focused
-61-914-7873,Lucais,Matches,M,6/18/1991,353-147-4278,lmatchesr@ask.com,574-89-1719,32,4,89 Muir Way,Marcy,Chybie,,43-520,zero tolerance
-83-063-8724,Rosana,Ruston,F,3/28/1994,602-311-6005,rrustons@yandex.ru,878-06-3291,83,44,19474 Vahlen Drive,Dorton,Curahuasi,,,project
-59-831-4001,Archy,Leynagh,M,10/13/1980,290-831-8498,aleynaght@4shared.com,659-18-5183,92,69,022 Trailsway Drive,Eastwood,Garahan,,,analyzing
-98-147-1007,Anatollo,Billion,M,7/30/1997,252-317-0555,abillionu@gmpg.org,204-03-0513,13,74,14 Memorial Lane,Homewood,Sfax,,,object-oriented
-03-245-9535,Kalli,Dark,F,11/7/1992,102-821-4543,kdarkv@narod.ru,105-22-4142,96,41,984 Dapin Alley,Pepper Wood,Sarapul,,427985,archive
-25-882-9563,Anatola,Newland,F,10/24/1997,320-368-9171,anewlandw@ucsd.edu,354-77-7630,96,26,993 Arkansas Alley,Golden Leaf,Pag-asa,,8113,framework
-20-300-3854,Gina,Dunbleton,F,7/18/2000,858-237-4072,gdunbletonx@furl.net,619-28-9023,67,96,6 Kings Center,Toban,Belén Gualcho,,,installation
-03-374-5878,Zolly,Yurivtsev,M,5/16/2015,275-170-8877,zyurivtsevy@hc360.com,559-99-8235,27,26,6 Boyd Plaza,Eagan,Santa Teresa,,,reciprocal
-50-907-2278,Wilek,Bywater,M,1/1/1995,374-729-6961,wbywaterz@deliciousdays.com,606-19-2162,36,16,4 Arizona Center,Bay,Beira,,,24/7
-30-664-6657,Alika,Barlie,F,6/11/1982,134-404-8346,abarlie10@mac.com,136-92-7323,22,76,134 Fordem Court,Orin,Oslo,Oslo,1168,secondary
-66-736-6359,Donielle,Abdie,F,10/11/2007,655-447-4113,dabdie11@ehow.com,497-93-3750,42,35,79 Northview Court,Tennessee,Palaihari,,,asynchronous
-30-124-7175,Gene,Blofeld,M,4/9/2006,131-827-3912,gblofeld12@msn.com,338-38-5370,89,23,72 Bultman Trail,Mandrake,Popovice,,686 04,Polarised
-30-305-5254,Carri,Handes,F,2/13/1964,568-590-8306,chandes13@livejournal.com,164-18-8676,25,52,2 Sheridan Terrace,Vera,Xiushi,,,Enterprise-wide
-99-317-5053,Ariel,Douris,M,12/12/1985,605-624-1188,adouris14@hugedomains.com,360-82-8827,12,100,93 American Junction,Loftsgordon,Vila Pouca da Beira,Coimbra,3400-759,Face to face
-48-321-5873,Dex,Fratczak,M,2/17/2016,503-184-4821,dfratczak15@utexas.edu,728-38-0027,43,62,9028 Myrtle Terrace,Oneill,Chancay,,,executive
-83-076-6193,Erastus,Boseley,M,9/9/2007,913-589-7360,eboseley16@webs.com,898-05-5686,39,83,7 Randy Terrace,Lien,Dili,,,Upgradable
-07-602-6774,Olivette,Winterton,F,12/2/1982,122-737-2625,owinterton17@bloglines.com,716-11-4211,15,43,1 West Court,Main,Sabá,,,static
-01-481-8325,Theodora,Skacel,F,11/25/1998,261-673-6501,tskacel18@microsoft.com,334-57-8268,30,76,2 Blue Bill Park Way,Gale,Abovyan,,,foreground
-82-962-3885,Gabriell,Gligorijevic,F,6/16/1966,427-694-5426,ggligorijevic19@slate.com,536-62-1365,28,41,27 Reindahl Lane,Village,Tippi,,,zero tolerance
-52-153-2013,Tremain,Leborgne,M,9/7/1999,806-520-3767,tleborgne1a@163.com,177-89-6506,24,44,31 Rowland Crossing,5th,La Falda,,4640,non-volatile
-35-854-1384,Bob,Klimentov,M,12/23/1990,377-661-8323,bklimentov1b@cornell.edu,694-40-0165,24,39,448 Twin Pines Road,Dryden,Dĩ An,,,secured line
-26-326-2909,Aggy,Chell,F,6/10/2015,515-165-7091,achell1c@tinypic.com,813-34-7749,92,74,7 Killdeer Drive,Center,Tabuadelo,Braga,4835-449,infrastructure
-51-815-3228,Kay,Trelease,F,4/25/1989,325-686-9381,ktrelease1d@unesco.org,210-90-6102,23,67,30431 Cambridge Drive,Sachtjen,La Unión,,,next generation
-00-692-2852,Keary,Brehault,M,12/12/1986,359-786-2349,kbrehault1e@goo.ne.jp,774-18-7183,44,18,0593 Prairieview Point,Luster,Qādirpur Rān,,59311,demand-driven
-02-810-0529,Rae,Haddy,F,12/29/1967,117-359-4692,rhaddy1f@dell.com,836-66-8074,95,3,0203 Holmberg Alley,Crescent Oaks,Salon-de-Provence,Provence-Alpes-Côte d'Azur,13662 CEDEX,task-force
-68-175-3221,Maureen,Stivani,F,1/8/1994,931-315-7857,mstivani1g@i2i.jp,183-71-4808,61,85,83229 Center Avenue,Bunting,Ubatã,,45550-000,Visionary
-51-669-5483,Marchelle,Annear,F,4/28/1981,152-973-2138,mannear1h@berkeley.edu,225-14-4874,84,85,30930 Bunker Hill Lane,Susan,Carpalho,Leiria,2425-417,Persevering
-51-500-2065,Whitney,Abelwhite,M,1/23/1974,283-354-0193,wabelwhite1i@ning.com,699-09-3201,100,76,4822 Charing Cross Junction,Briar Crest,Hollola,,15880,Organic
-88-613-9020,Sashenka,Pettis,F,6/7/1974,633-984-4980,spettis1j@nsw.gov.au,288-34-0465,95,14,7313 Killdeer Alley,Monument,Várzea Grande,,64525-000,Balanced
-84-781-5532,Durante,Orrobin,M,12/31/2016,373-302-2578,dorrobin1k@alibaba.com,244-12-4064,63,87,25 Express Road,Forest Dale,Maguan,,,Re-engineered
-62-607-6926,Adolphus,Beven,M,8/10/1981,859-760-8899,abeven1l@disqus.com,431-71-5638,87,53,526 Northland Park,Gale,Ebetsu,,163-0690,approach
-94-909-1357,Kaycee,Cubbin,F,10/31/1988,197-617-0907,kcubbin1m@ucsd.edu,376-79-5607,21,52,1 Bobwhite Lane,Truax,Semamung,,,radical
-33-710-8646,Muffin,Radoux,F,1/11/2014,701-922-2338,mradoux1n@jimdo.com,874-59-5299,19,65,38 Esch Parkway,Declaration,Kali,,,artificial intelligence
-70-361-0928,Travis,Dollard,M,8/16/2007,650-970-4762,tdollard1o@ebay.com,213-29-7974,40,33,826 Blaine Pass,Hudson,Châteaurenard,Provence-Alpes-Côte d'Azur,13834 CEDEX,foreground
-71-552-5797,Juan,Skelbeck,M,8/1/1993,614-637-1046,jskelbeck1p@desdev.cn,607-72-2429,52,26,81 Waywood Plaza,Sheridan,Columbus,Ohio,43268,Diverse
-75-226-9276,Ab,Leworthy,M,3/16/1998,883-201-6718,aleworthy1q@homestead.com,326-81-5274,65,52,663 Stang Avenue,Colorado,Bétérou,,,systematic
-05-880-3666,Derrek,Petty,M,7/11/1963,988-316-1425,dpetty1r@indiegogo.com,849-62-8300,79,86,06553 Mockingbird Lane,3rd,Ningtang,,,multimedia
-97-345-0081,Glen,Kerry,F,2/8/1992,197-709-6834,gkerry1s@chicagotribune.com,870-22-3239,13,23,76 Redwing Parkway,Buhler,Zakamensk,,671950,Upgradable
-51-605-3583,Ginger,Basnett,F,12/29/1967,508-141-6527,gbasnett1t@globo.com,678-61-6213,4,18,6839 Northwestern Lane,Glendale,Jabranti,,,well-modulated
-87-033-0890,Reg,Reditt,M,8/12/1960,401-223-1497,rreditt1u@yelp.com,702-15-1737,12,84,65510 Milwaukee Circle,Messerschmidt,Houmt Souk,,,time-frame
-62-318-3917,Idaline,Follis,F,9/20/2015,475-118-1114,ifollis1v@amazon.co.uk,228-58-6514,46,53,27616 Washington Avenue,Commercial,Pirassununga,,13630-000,tangible
-23-885-8154,Martha,Aldwich,F,10/14/2010,103-776-4456,maldwich1w@twitter.com,628-17-0623,35,6,87 Cottonwood Court,Vermont,Zhaotong,,,Intuitive
-16-963-6357,Anni,Hamilton,F,3/25/2000,514-619-2725,ahamilton1x@arstechnica.com,317-96-8587,34,70,24980 Eliot Park,Charing Cross,Wanfang,,,6th generation
-34-326-5230,Cornall,Pallasch,M,4/18/1991,643-765-4791,cpallasch1y@w3.org,476-15-4326,23,82,0 Shoshone Avenue,Carberry,Chợ Gạo,,,productivity
-36-931-0507,Pattie,Alfonzo,M,8/31/1978,615-516-8917,palfonzo1z@angelfire.com,607-82-5234,16,31,46487 Mallard Parkway,Algoma,Nanfeng,,,zero administration
-68-601-9494,Morlee,MacVaugh,M,7/12/1967,507-240-9180,mmacvaugh20@sourceforge.net,675-76-1069,60,31,2 Carey Way,Prairie Rose,Tal’ne,,,web-enabled
-70-480-1346,Philbert,Willarton,M,4/1/1976,855-885-8923,pwillarton21@dailymotion.com,619-85-6952,69,41,02 Canary Place,Ilene,Quzi,,,Mandatory
-38-000-2888,Consalve,Gostall,M,3/6/1962,343-651-4491,cgostall22@zimbio.com,741-07-5393,75,55,766 Meadow Valley Hill,Duke,Al Marj,,,application
-72-032-2403,Misha,Sex,F,2/5/2017,244-809-1284,msex23@ameblo.jp,886-71-7205,7,11,371 John Wall Center,Ilene,Divnomorskoye,,353490,Down-sized
-40-591-8598,Julio,Vala,M,10/19/1990,616-125-2725,jvala24@youtube.com,741-07-6075,88,46,55541 Loftsgordon Terrace,Sauthoff,Aroroy,,5414,6th generation
-10-032-4553,Harrietta,Tainton,F,2/11/1995,608-179-3169,htainton25@exblog.jp,268-67-2816,21,59,3338 Helena Crossing,Bartillon,Bantengan,,,info-mediaries
-64-083-7642,Bryon,Iacoboni,M,6/2/1996,973-414-0293,biacoboni26@statcounter.com,232-48-6214,71,16,8 Heffernan Lane,Eliot,Castilla,,4713,bottom-line
-76-955-7254,Dewain,Robertazzi,M,5/10/1971,119-991-2248,drobertazzi27@nationalgeographic.com,498-71-6260,3,29,3891 Bartillon Crossing,Holy Cross,Saint-Jean-de-Luz,Aquitaine,64504 CEDEX,Pre-emptive
-41-243-4857,Kris,Frowen,M,3/21/1963,785-391-0975,kfrowen28@ameblo.jp,516-53-9950,56,99,1035 John Wall Place,Warrior,Ciperang,,,exuding
-08-448-0940,Paten,Kuhle,M,10/22/2005,221-115-5959,pkuhle29@nps.gov,562-03-7538,22,23,43 Arapahoe Circle,Golden Leaf,Kurmanayevka,,461069,next generation
-90-837-9848,Merill,Gurry,M,4/12/2007,638-155-2378,mgurry2a@dropbox.com,139-02-9030,69,5,60 Lindbergh Crossing,Fulton,Saue,,,holistic
-28-354-0095,Bert,Moorrud,M,8/2/1971,874-193-9975,bmoorrud2b@cnet.com,566-44-2729,11,32,2856 1st Park,Texas,Ključ,,,Operative
-90-642-0299,Amabelle,Kubatsch,F,12/6/1966,816-814-5654,akubatsch2c@gravatar.com,177-90-0839,41,80,10090 Debs Center,Mifflin,Kansas City,Missouri,64187,Graphical User Interface
-19-604-8479,Nickolai,Helleker,M,6/23/1989,993-644-5249,nhelleker2d@yale.edu,368-56-1333,85,44,70 Texas Terrace,Merchant,Berlin,Berlin,13599,systemic
-02-298-7106,Liv,Strelitzki,F,11/27/2003,955-878-3793,lstrelitzki2e@engadget.com,307-26-3072,77,7,1 Muir Court,Shasta,Dongjin,,,reciprocal
-98-401-4132,Vittorio,Whelband,M,1/25/1982,611-834-9941,vwhelband2f@amazon.de,635-09-3514,12,100,73557 Reinke Avenue,Hoard,Longxi,,,Grass-roots
-99-114-1971,Ania,Sallinger,F,2/28/1962,341-700-1315,asallinger2g@123-reg.co.uk,580-44-9372,68,39,5219 Bartillon Place,Esch,Арачиново,,1047,Front-line
-12-791-3167,Harwilll,Seppey,M,8/1/1973,614-196-5489,hseppey2h@si.edu,793-76-3800,82,81,1 Glacier Hill Avenue,Marquette,Timba Timuk,,,dynamic
-13-385-2067,Jacques,Jeness,M,3/27/2013,713-862-0767,jjeness2i@jiathis.com,143-51-0976,63,28,669 Erie Hill,Hayes,Zhourui,,,website
-94-129-5291,Jackqueline,Whatley,F,1/14/1995,546-558-2859,jwhatley2j@plala.or.jp,477-52-9916,84,61,59 Basil Point,Shopko,Caibarién,,,discrete
-49-016-8954,Delbert,Eliyahu,M,3/23/1962,488-432-8990,deliyahu2k@posterous.com,476-35-2662,64,39,67635 Merrick Lane,Luster,Évora,Évora,7000-062,Decentralized
-05-554-5271,Marissa,Carlan,F,12/27/1975,715-512-0196,mcarlan2l@dmoz.org,817-44-6682,40,48,1573 Walton Crossing,Menomonie,Logovskoye,,671633,moderator
-80-834-4388,Binnie,Blick,F,3/17/1998,147-589-0796,bblick2m@devhub.com,180-04-7297,35,17,1 Florence Road,Tennessee,Pajaten,,,flexibility
-86-849-7179,Durward,Forte,M,10/13/1988,611-462-6307,dforte2n@webs.com,375-56-5946,79,72,1356 Springs Trail,Harbort,Uppsala,Uppsala,752 42,intranet
-23-483-5875,Magnum,Finders,M,7/21/1972,702-981-5403,mfinders2o@cnn.com,174-33-7602,5,85,78928 Susan Center,Fairview,Las Vegas,Nevada,89110,encryption
-33-383-5244,Bertram,Sherrett,M,9/8/1994,694-966-1095,bsherrett2p@xinhuanet.com,711-81-3264,16,38,9 Derek Circle,Meadow Vale,Aleg,,,conglomeration
-88-286-9417,Prudi,Pickrill,F,1/25/1986,631-669-9018,ppickrill2q@hp.com,598-22-1682,2,88,3 Park Meadow Pass,Tomscot,Hinunangan,,6608,Mandatory
-04-248-1488,Joly,Bromell,F,8/16/1989,425-984-0413,jbromell2r@e-recht24.de,462-13-7439,43,86,9966 Petterle Pass,Butternut,Macarse,,6707,high-level
+69-150-5487,Merrel,Chawkley,M,1955-05-11,105-131-7558,mchawkley0@prnewswire.com,772-24-3747,24,87,4 Monument Way,Loftsgordon,Batan,,,product
+80-283-7779,Ilyssa,Jeffers,F,1986-08-25,254-549-5014,ijeffers1@tinypic.com,341-11-3396,78,94,829 Nelson Avenue,Shelley,Fengyang,,,Organized
+28-660-6013,Beverley,Andriss,F,1972-12-27,903-741-1843,bandriss2@purevolume.com,199-47-9327,76,11,56 Dapin Circle,Paget,Vanderbijlpark,,1916,Integrated
+77-818-7359,Melicent,Dubbin,F,1959-10-28,658-300-7876,mdubbin3@pen.io,135-32-5371,57,86,6277 Grover Way,Mosinee,Longotea,,,secondary
+79-705-4358,Pete,Smale,M,1997-08-16,344-789-8373,psmale4@people.com.cn,503-60-6465,6,34,08 Bashford Center,Ridge Oak,Aveiras de Cima,Lisboa,2050-065,fresh-thinking
+48-397-9846,Jeannine,Backshell,F,1996-07-04,348-576-0790,jbackshell5@dell.com,838-27-6609,24,10,6 Rusk Trail,5th,Pom Prap Sattru Phai,,10100,responsive
+17-203-4434,Ronnie,Wavell,M,1998-11-03,510-822-6154,rwavell6@china.com.cn,381-92-4424,27,20,9382 Stoughton Point,Pleasure,Xishiqiao,,,installation
+70-649-8940,Sonya,Krzysztof,F,1998-08-11,334-465-2940,skrzysztof7@illinois.edu,843-84-5097,43,39,9139 Nobel Alley,Spaight,Phra Phutthabat,,18120,6th generation
+66-517-3437,Joete,Schrieves,F,1980-03-16,706-594-0766,jschrieves8@berkeley.edu,320-99-4880,14,8,7162 Acker Lane,Merchant,Tanlad,,8010,framework
+39-614-6265,Selena,Marsh,F,2000-05-22,890-184-8589,smarsh9@netlog.com,117-62-8665,71,77,8950 Atwood Street,Bunker Hill,Guisijan,,5705,projection
+04-590-8395,Vladimir,Beine,M,1951-01-12,533-376-2890,vbeinea@tinypic.com,390-64-2282,67,15,2453 Eliot Drive,International,Falāvarjān,,,5th generation
+26-443-8683,Al,Bowcock,M,1984-11-06,786-962-8664,abowcockb@npr.org,481-13-9073,40,61,8 Morningstar Pass,Blue Bill Park,Miami,Florida,33233,portal
+91-946-3510,Clarey,Lattimer,F,1973-11-07,787-764-2103,clattimerc@salon.com,725-39-5139,77,10,5492 Moulton Lane,Oneill,Lindavista,Oaxaca,70633,non-volatile
+56-770-5816,Sydel,Kowalski,F,2000-12-09,736-275-2630,skowalskid@ameblo.jp,619-65-6167,37,21,184 Monument Way,Melody,Codó,,65400-000,Networked
+14-428-4577,Abbot,Ashbee,M,1958-08-24,891-208-9118,aashbeee@arizona.edu,792-07-6532,79,85,51522 Thierer Place,Arrowood,Xinxing,,,portal
+68-447-9381,Desiri,Gibby,F,1968-03-07,486-542-0186,dgibbyf@so-net.ne.jp,879-88-9949,17,15,52 Memorial Terrace,Sunnyside,Manevychi,,,dedicated
+06-239-2528,Beltran,Hulcoop,M,1965-12-26,317-494-9425,bhulcoopg@baidu.com,108-66-8440,75,37,0068 Melvin Lane,1st,Vođinci,,32283,bifurcated
+61-721-8285,Audre,Treasure,F,1993-10-09,507-952-6937,atreasureh@google.co.uk,427-07-5584,44,15,7043 Clove Drive,Kinsman,Shardara,,,implementation
+63-882-4360,Lindon,Coveney,M,1996-09-14,366-352-7300,lcoveneyi@accuweather.com,811-69-4067,22,50,1 Dottie Pass,Forest Run,Batangtoru,,,Synergistic
+80-021-1159,Elinore,Beville,F,1974-10-17,697-604-2416,ebevillej@reference.com,599-98-6600,40,95,549 Marquette Plaza,Thompson,Kapenguria,,,Enterprise-wide
+17-592-7024,Heda,Paylie,F,1984-07-05,924-709-5421,hpayliek@answers.com,641-21-2713,43,45,5778 Homewood Park,Continental,Ḩammām Wāşil,,,systemic
+29-553-5395,Gordy,Close,M,1998-12-03,264-511-6860,gclosel@cornell.edu,100-36-6130,32,13,49 John Wall Center,Lunder,Grojec,,32-615,data-warehouse
+93-682-8093,Pattin,McCarroll,M,2005-01-28,923-466-8967,pmccarrollm@creativecommons.org,231-95-1025,1,96,81 Sloan Road,Nevada,Catbalogan,,6700,functionalities
+16-638-1516,Gregoire,Goodbar,M,2005-04-07,796-672-6782,ggoodbarn@japanpost.jp,354-80-1499,57,37,43 Straubel Drive,Bunting,Yong’an,,,forecast
+05-601-7869,Cathrin,Tayler,F,2008-02-03,896-509-6801,ctaylero@oakley.com,683-52-2608,9,62,02 Northview Drive,Waxwing,Tangxia,,,Mandatory
+88-548-6231,Hervey,Sheach,M,1978-10-23,765-543-4452,hsheachp@msu.edu,110-78-4251,94,3,411 Union Road,Mariners Cove,Paris La Défense,Île-de-France,92041 CEDEX,3rd generation
+62-657-3750,Haven,Streetfield,M,1978-07-15,767-728-6564,hstreetfieldq@dion.ne.jp,294-08-5646,61,52,89045 Eastwood Parkway,Helena,Nurmijärvi,,1901,Customer-focused
+61-914-7873,Lucais,Matches,M,1954-05-24,353-147-4278,lmatchesr@ask.com,574-89-1719,32,4,89 Muir Way,Marcy,Chybie,,43-520,zero tolerance
+83-063-8724,Rosana,Ruston,F,2008-03-08,602-311-6005,rrustons@yandex.ru,878-06-3291,83,44,19474 Vahlen Drive,Dorton,Curahuasi,,,project
+59-831-4001,Archy,Leynagh,M,1968-10-06,290-831-8498,aleynaght@4shared.com,659-18-5183,92,69,022 Trailsway Drive,Eastwood,Garahan,,,analyzing
+98-147-1007,Anatollo,Billion,M,1979-06-12,252-317-0555,abillionu@gmpg.org,204-03-0513,13,74,14 Memorial Lane,Homewood,Sfax,,,object-oriented
+03-245-9535,Kalli,Dark,F,2003-06-08,102-821-4543,kdarkv@narod.ru,105-22-4142,96,41,984 Dapin Alley,Pepper Wood,Sarapul,,427985,archive
+25-882-9563,Anatola,Newland,F,1998-09-17,320-368-9171,anewlandw@ucsd.edu,354-77-7630,96,26,993 Arkansas Alley,Golden Leaf,Pag-asa,,8113,framework
+20-300-3854,Gina,Dunbleton,F,1983-12-27,858-237-4072,gdunbletonx@furl.net,619-28-9023,67,96,6 Kings Center,Toban,Belén Gualcho,,,installation
+03-374-5878,Zolly,Yurivtsev,M,1970-11-21,275-170-8877,zyurivtsevy@hc360.com,559-99-8235,27,26,6 Boyd Plaza,Eagan,Santa Teresa,,,reciprocal
+50-907-2278,Wilek,Bywater,M,1961-06-06,374-729-6961,wbywaterz@deliciousdays.com,606-19-2162,36,16,4 Arizona Center,Bay,Beira,,,24-Jul
+30-664-6657,Alika,Barlie,F,1991-09-10,134-404-8346,abarlie10@mac.com,136-92-7323,22,76,134 Fordem Court,Orin,Oslo,Oslo,1168,secondary
+66-736-6359,Donielle,Abdie,F,1990-04-07,655-447-4113,dabdie11@ehow.com,497-93-3750,42,35,79 Northview Court,Tennessee,Palaihari,,,asynchronous
+30-124-7175,Gene,Blofeld,M,1991-11-07,131-827-3912,gblofeld12@msn.com,338-38-5370,89,23,72 Bultman Trail,Mandrake,Popovice,,686 04,Polarised
+30-305-5254,Carri,Handes,F,2010-03-17,568-590-8306,chandes13@livejournal.com,164-18-8676,25,52,2 Sheridan Terrace,Vera,Xiushi,,,Enterprise-wide
+99-317-5053,Ariel,Douris,M,2007-02-06,605-624-1188,adouris14@hugedomains.com,360-82-8827,12,100,93 American Junction,Loftsgordon,Vila Pouca da Beira,Coimbra,3400-759,Face to face
+48-321-5873,Dex,Fratczak,M,1952-07-16,503-184-4821,dfratczak15@utexas.edu,728-38-0027,43,62,9028 Myrtle Terrace,Oneill,Chancay,,,executive
+83-076-6193,Erastus,Boseley,M,1993-10-18,913-589-7360,eboseley16@webs.com,898-05-5686,39,83,7 Randy Terrace,Lien,Dili,,,Upgradable
+07-602-6774,Olivette,Winterton,F,1953-06-06,122-737-2625,owinterton17@bloglines.com,716-11-4211,15,43,1 West Court,Main,Sabá,,,static
+01-481-8325,Theodora,Skacel,F,1999-01-15,261-673-6501,tskacel18@microsoft.com,334-57-8268,30,76,2 Blue Bill Park Way,Gale,Abovyan,,,foreground
+82-962-3885,Gabriell,Gligorijevic,F,2010-10-25,427-694-5426,ggligorijevic19@slate.com,536-62-1365,28,41,27 Reindahl Lane,Village,Tippi,,,zero tolerance
+52-153-2013,Tremain,Leborgne,M,1988-03-28,806-520-3767,tleborgne1a@163.com,177-89-6506,24,44,31 Rowland Crossing,5th,La Falda,,4640,non-volatile
+35-854-1384,Bob,Klimentov,M,1978-08-08,377-661-8323,bklimentov1b@cornell.edu,694-40-0165,24,39,448 Twin Pines Road,Dryden,Dĩ An,,,secured line
+26-326-2909,Aggy,Chell,F,1977-06-27,515-165-7091,achell1c@tinypic.com,813-34-7749,92,74,7 Killdeer Drive,Center,Tabuadelo,Braga,4835-449,infrastructure
+51-815-3228,Kay,Trelease,F,1956-10-30,325-686-9381,ktrelease1d@unesco.org,210-90-6102,23,67,30431 Cambridge Drive,Sachtjen,La Unión,,,next generation
+00-692-2852,Keary,Brehault,M,2009-10-13,359-786-2349,kbrehault1e@goo.ne.jp,774-18-7183,44,18,0593 Prairieview Point,Luster,Qādirpur Rān,,59311,demand-driven
+02-810-0529,Rae,Haddy,F,1996-05-12,117-359-4692,rhaddy1f@dell.com,836-66-8074,95,3,0203 Holmberg Alley,Crescent Oaks,Salon-de-Provence,Provence-Alpes-Côte d'Azur,13662 CEDEX,task-force
+68-175-3221,Maureen,Stivani,F,1976-08-27,931-315-7857,mstivani1g@i2i.jp,183-71-4808,61,85,83229 Center Avenue,Bunting,Ubatã,,45550-000,Visionary
+51-669-5483,Marchelle,Annear,F,1963-09-20,152-973-2138,mannear1h@berkeley.edu,225-14-4874,84,85,30930 Bunker Hill Lane,Susan,Carpalho,Leiria,2425-417,Persevering
+51-500-2065,Whitney,Abelwhite,M,1999-06-09,283-354-0193,wabelwhite1i@ning.com,699-09-3201,100,76,4822 Charing Cross Junction,Briar Crest,Hollola,,15880,Organic
+88-613-9020,Sashenka,Pettis,F,1951-12-14,633-984-4980,spettis1j@nsw.gov.au,288-34-0465,95,14,7313 Killdeer Alley,Monument,Várzea Grande,,64525-000,Balanced
+84-781-5532,Durante,Orrobin,M,2007-04-07,373-302-2578,dorrobin1k@alibaba.com,244-12-4064,63,87,25 Express Road,Forest Dale,Maguan,,,Re-engineered
+62-607-6926,Adolphus,Beven,M,2008-12-28,859-760-8899,abeven1l@disqus.com,431-71-5638,87,53,526 Northland Park,Gale,Ebetsu,,163-0690,approach
+94-909-1357,Kaycee,Cubbin,F,1960-09-02,197-617-0907,kcubbin1m@ucsd.edu,376-79-5607,21,52,1 Bobwhite Lane,Truax,Semamung,,,radical
+33-710-8646,Muffin,Radoux,F,1969-03-14,701-922-2338,mradoux1n@jimdo.com,874-59-5299,19,65,38 Esch Parkway,Declaration,Kali,,,artificial intelligence
+70-361-0928,Travis,Dollard,M,1986-10-29,650-970-4762,tdollard1o@ebay.com,213-29-7974,40,33,826 Blaine Pass,Hudson,Châteaurenard,Provence-Alpes-Côte d'Azur,13834 CEDEX,foreground
+71-552-5797,Juan,Skelbeck,M,1998-12-18,614-637-1046,jskelbeck1p@desdev.cn,607-72-2429,52,26,81 Waywood Plaza,Sheridan,Columbus,Ohio,43268,Diverse
+75-226-9276,Ab,Leworthy,M,1997-06-15,883-201-6718,aleworthy1q@homestead.com,326-81-5274,65,52,663 Stang Avenue,Colorado,Bétérou,,,systematic
+05-880-3666,Derrek,Petty,M,2004-01-18,988-316-1425,dpetty1r@indiegogo.com,849-62-8300,79,86,06553 Mockingbird Lane,3rd,Ningtang,,,multimedia
+97-345-0081,Glen,Kerry,F,1995-03-07,197-709-6834,gkerry1s@chicagotribune.com,870-22-3239,13,23,76 Redwing Parkway,Buhler,Zakamensk,,671950,Upgradable
+51-605-3583,Ginger,Basnett,F,1996-05-16,508-141-6527,gbasnett1t@globo.com,678-61-6213,4,18,6839 Northwestern Lane,Glendale,Jabranti,,,well-modulated
+87-033-0890,Reg,Reditt,M,2000-05-08,401-223-1497,rreditt1u@yelp.com,702-15-1737,12,84,65510 Milwaukee Circle,Messerschmidt,Houmt Souk,,,time-frame
+62-318-3917,Idaline,Follis,F,1956-07-20,475-118-1114,ifollis1v@amazon.co.uk,228-58-6514,46,53,27616 Washington Avenue,Commercial,Pirassununga,,13630-000,tangible
+23-885-8154,Martha,Aldwich,F,2006-03-13,103-776-4456,maldwich1w@twitter.com,628-17-0623,35,6,87 Cottonwood Court,Vermont,Zhaotong,,,Intuitive
+16-963-6357,Anni,Hamilton,F,1954-08-31,514-619-2725,ahamilton1x@arstechnica.com,317-96-8587,34,70,24980 Eliot Park,Charing Cross,Wanfang,,,6th generation
+34-326-5230,Cornall,Pallasch,M,1969-04-05,643-765-4791,cpallasch1y@w3.org,476-15-4326,23,82,0 Shoshone Avenue,Carberry,Chợ Gạo,,,productivity
+36-931-0507,Pattie,Alfonzo,M,1969-04-23,615-516-8917,palfonzo1z@angelfire.com,607-82-5234,16,31,46487 Mallard Parkway,Algoma,Nanfeng,,,zero administration
+68-601-9494,Morlee,MacVaugh,M,1994-12-30,507-240-9180,mmacvaugh20@sourceforge.net,675-76-1069,60,31,2 Carey Way,Prairie Rose,Tal’ne,,,web-enabled
+70-480-1346,Philbert,Willarton,M,1968-08-07,855-885-8923,pwillarton21@dailymotion.com,619-85-6952,69,41,02 Canary Place,Ilene,Quzi,,,Mandatory
+38-000-2888,Consalve,Gostall,M,1989-07-03,343-651-4491,cgostall22@zimbio.com,741-07-5393,75,55,766 Meadow Valley Hill,Duke,Al Marj,,,application
+72-032-2403,Misha,Sex,F,1969-12-17,244-809-1284,msex23@ameblo.jp,886-71-7205,7,11,371 John Wall Center,Ilene,Divnomorskoye,,353490,Down-sized
+40-591-8598,Julio,Vala,M,1955-01-02,616-125-2725,jvala24@youtube.com,741-07-6075,88,46,55541 Loftsgordon Terrace,Sauthoff,Aroroy,,5414,6th generation
+10-032-4553,Harrietta,Tainton,F,1958-11-26,608-179-3169,htainton25@exblog.jp,268-67-2816,21,59,3338 Helena Crossing,Bartillon,Bantengan,,,info-mediaries
+64-083-7642,Bryon,Iacoboni,M,1975-02-17,973-414-0293,biacoboni26@statcounter.com,232-48-6214,71,16,8 Heffernan Lane,Eliot,Castilla,,4713,bottom-line
+76-955-7254,Dewain,Robertazzi,M,2008-12-09,119-991-2248,drobertazzi27@nationalgeographic.com,498-71-6260,3,29,3891 Bartillon Crossing,Holy Cross,Saint-Jean-de-Luz,Aquitaine,64504 CEDEX,Pre-emptive
+41-243-4857,Kris,Frowen,M,1984-11-30,785-391-0975,kfrowen28@ameblo.jp,516-53-9950,56,99,1035 John Wall Place,Warrior,Ciperang,,,exuding
+08-448-0940,Paten,Kuhle,M,1993-07-30,221-115-5959,pkuhle29@nps.gov,562-03-7538,22,23,43 Arapahoe Circle,Golden Leaf,Kurmanayevka,,461069,next generation
+90-837-9848,Merill,Gurry,M,1993-01-19,638-155-2378,mgurry2a@dropbox.com,139-02-9030,69,5,60 Lindbergh Crossing,Fulton,Saue,,,holistic
+28-354-0095,Bert,Moorrud,M,1966-07-10,874-193-9975,bmoorrud2b@cnet.com,566-44-2729,11,32,2856 1st Park,Texas,Ključ,,,Operative
+90-642-0299,Amabelle,Kubatsch,F,1968-12-08,816-814-5654,akubatsch2c@gravatar.com,177-90-0839,41,80,10090 Debs Center,Mifflin,Kansas City,Missouri,64187,Graphical User Interface
+19-604-8479,Nickolai,Helleker,M,1998-09-08,993-644-5249,nhelleker2d@yale.edu,368-56-1333,85,44,70 Texas Terrace,Merchant,Berlin,Berlin,13599,systemic
+02-298-7106,Liv,Strelitzki,F,2001-07-18,955-878-3793,lstrelitzki2e@engadget.com,307-26-3072,77,7,1 Muir Court,Shasta,Dongjin,,,reciprocal
+98-401-4132,Vittorio,Whelband,M,1960-02-04,611-834-9941,vwhelband2f@amazon.de,635-09-3514,12,100,73557 Reinke Avenue,Hoard,Longxi,,,Grass-roots
+99-114-1971,Ania,Sallinger,F,2007-07-21,341-700-1315,asallinger2g@123-reg.co.uk,580-44-9372,68,39,5219 Bartillon Place,Esch,Арачиново,,1047,Front-line
+12-791-3167,Harwilll,Seppey,M,2010-03-30,614-196-5489,hseppey2h@si.edu,793-76-3800,82,81,1 Glacier Hill Avenue,Marquette,Timba Timuk,,,dynamic
+13-385-2067,Jacques,Jeness,M,1982-12-18,713-862-0767,jjeness2i@jiathis.com,143-51-0976,63,28,669 Erie Hill,Hayes,Zhourui,,,website
+94-129-5291,Jackqueline,Whatley,F,2002-02-17,546-558-2859,jwhatley2j@plala.or.jp,477-52-9916,84,61,59 Basil Point,Shopko,Caibarién,,,discrete
+49-016-8954,Delbert,Eliyahu,M,1978-10-22,488-432-8990,deliyahu2k@posterous.com,476-35-2662,64,39,67635 Merrick Lane,Luster,Évora,Évora,7000-062,Decentralized
+05-554-5271,Marissa,Carlan,F,1958-07-28,715-512-0196,mcarlan2l@dmoz.org,817-44-6682,40,48,1573 Walton Crossing,Menomonie,Logovskoye,,671633,moderator
+80-834-4388,Binnie,Blick,F,1982-04-30,147-589-0796,bblick2m@devhub.com,180-04-7297,35,17,1 Florence Road,Tennessee,Pajaten,,,flexibility
+86-849-7179,Durward,Forte,M,1992-01-15,611-462-6307,dforte2n@webs.com,375-56-5946,79,72,1356 Springs Trail,Harbort,Uppsala,Uppsala,752 42,intranet
+23-483-5875,Magnum,Finders,M,1964-02-15,702-981-5403,mfinders2o@cnn.com,174-33-7602,5,85,78928 Susan Center,Fairview,Las Vegas,Nevada,89110,encryption
+33-383-5244,Bertram,Sherrett,M,1995-03-20,694-966-1095,bsherrett2p@xinhuanet.com,711-81-3264,16,38,9 Derek Circle,Meadow Vale,Aleg,,,conglomeration
+88-286-9417,Prudi,Pickrill,F,1986-04-17,631-669-9018,ppickrill2q@hp.com,598-22-1682,2,88,3 Park Meadow Pass,Tomscot,Hinunangan,,6608,Mandatory
+04-248-1488,Joly,Bromell,F,1953-10-11,425-984-0413,jbromell2r@e-recht24.de,462-13-7439,43,86,9966 Petterle Pass,Butternut,Macarse,,6707,high-level
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,

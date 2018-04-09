@@ -33,8 +33,7 @@
                 die("Connection failed: " . $conn->connect_error);
             } 
 
-            $sql = "SELECT customer.customer_id, customer.first_name, customer.last_name, vehicle.vehicle_id, vehicle.make, vehicle.model, vehicle.v_year FROM customer, vehicle WHERE vehicle.customer_id=customer.customer.id";
-            $result = $conn->query($sql);
+            $sql = "SELECT * FROM vehicle";
 
             if ($result->num_rows > 0) {
             // output data of each row
