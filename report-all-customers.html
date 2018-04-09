@@ -25,8 +25,18 @@
                 </select></p>
         </form>
         -->
+        <fieldset>
+        <legend><h3>Search values</h3></legend>
         
-        <input type="text" id="myInput" onkeyup="searchName()" placeholder="Search for names.."><input type="text" id="myInput" onkeyup="searchPhone()" placeholder="Search for names..">
+        <input type="text" id="nameSearch" onkeyup="searchName()" placeholder="Search for names.." size="50">
+        
+        <input type="text" id="phoneSearch" onkeyup="searchPhone()" placeholder="Search for phone numbers.." size="30">
+            
+        <input type="text" id="emailSearch" onkeyup="searchEmail()" placeholder="Search for email addresses.." size="30">
+            
+        </fieldset>
+        
+        <br/>
     
         <table id="tables">
             <tr>
@@ -86,7 +96,7 @@
         <script>
             function searchName() {
                 var input, filter, table, tr, td, i;
-                input = document.getElementById("myInput");
+                input = document.getElementById("nameSearch");
                 filter = input.value.toUpperCase();
                 table = document.getElementById("tables");
                 tr = table.getElementsByTagName("tr");
@@ -103,7 +113,7 @@
             }
             function searchPhone() {
                 var input, filter, table, tr, td, i;
-                input = document.getElementById("myInput");
+                input = document.getElementById("phoneSearch");
                 filter = input.value.toUpperCase();
                 table = document.getElementById("tables");
                 tr = table.getElementsByTagName("tr");
@@ -118,7 +128,23 @@
                     }       
                 }
             }
-            
+            function searchEmail() {
+                var input, filter, table, tr, td, i;
+                input = document.getElementById("emailSearch");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("tables");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[8];
+                    if (td) {
+                        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }       
+                }
+            }
         </script>
     </body>
     
