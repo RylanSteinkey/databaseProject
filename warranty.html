@@ -85,6 +85,54 @@
               }
           }
         </script>
+        <script>
+              function showWarrantyInfo1(str)
+              {
+              if (str == "") {
+                  document.getElementById("warranty_info1").innerHTML = "";
+                  return;
+              } else {
+              if (window.XMLHttpRequest) {
+                  // code for IE7+, Firefox, Chrome, Opera, Safari
+                  xmlhttp = new XMLHttpRequest();
+              } else {
+                  // code for IE6, IE5
+                  xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+              }
+              xmlhttp.onreadystatechange = function() {
+                  if (this.readyState == 4 && this.status == 200) {
+                      document.getElementById("warranty_info1").innerHTML = this.responseText;
+                  }
+              };
+              xmlhttp.open("GET","/warrantyinfo.php?q="+str,true);
+              xmlhttp.send();
+              }
+          }
+        </script>
+        <script>
+              function showWarrantyInfo2(str)
+              {
+              if (str == "") {
+                  document.getElementById("warranty_info2").innerHTML = "";
+                  return;
+              } else {
+              if (window.XMLHttpRequest) {
+                  // code for IE7+, Firefox, Chrome, Opera, Safari
+                  xmlhttp = new XMLHttpRequest();
+              } else {
+                  // code for IE6, IE5
+                  xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+              }
+              xmlhttp.onreadystatechange = function() {
+                  if (this.readyState == 4 && this.status == 200) {
+                      document.getElementById("warranty_info2").innerHTML = this.responseText;
+                  }
+              };
+              xmlhttp.open("GET","/warrantyinfo.php?q="+str,true);
+              xmlhttp.send();
+              }
+          }
+        </script>
     </head>
 <html>
     <body>
@@ -94,7 +142,7 @@
         $conn = connect_sql();
         ?>
 
-        <form action="warranty.php" method="post">
+        <form action="warranty_script.php" method="post">
             <fieldset>
                 <legend><h2>Warranty Form</h2></legend>
                 <?php echo "<p>Select an existing customer <select name='customer_id' onchange= \"showCustomerInfo(this.value)\" required>";
@@ -150,72 +198,38 @@
 
                 <table id="tables">
                     <tr>
-                        <th>Warranty ID</th>
+                        <th>Warranty</th>
                         <th>Start Date</th>
                         <th>Length</th>
                         <th>Cost</th>
                         <th>Deductible</th>
                         <th>Items Covered</th>
                     </tr>
-                    <tr>
-                        <td><select name="warranty_code1">
-
-                            <!--prefilled options-->
-
+                    <tr id="warranty_info1">
+                        <td><select name="warranty_code" onchange= "showWarrantyInfo1(this.value)">
+                            <option value=""> Select Warranty </option>
+                            <?php
+                            $sql3 = "SELECT * FROM warranty_type";
+                            $results = $conn->query($sql3);
+                            while($row = $results->fetch_assoc())
+                            {
+                              echo "<option value=" .$row['warranty_code'] . ">" . $row['warranty_name'] . "</option>";
+                            }
+                            ?>
                             </select></td>
-                        <td><input type="date" name="start_date1"></td>
-                        <td><input type="number" name="length1"></td>
-                        <td><input type="number" name="cost1"></td>
-                        <td><input type="number" name="deductible1"></td>
-                        <td><textarea name="covered_items1"></textarea></td>
                     </tr>
-                    <tr>
-                        <td><select name="warranty_code2">
-
-                            <!--prefilled options-->
-
-                            </select></td>
-                        <td><input type="date" name="start_date2"></td>
-                        <td><input type="number" name="length2"></td>
-                        <td><input type="number" name="cost2"></td>
-                        <td><input type="number" name="deductible2"></td>
-                        <td><textarea name="covered_items2"></textarea></td>
-                    </tr>
-                    <tr>
-                        <td><select name="warranty_code3">
-
-                            <!--prefilled options-->
-
-                            </select></td>
-                        <td><input type="date" name="start_date3"></td>
-                        <td><input type="number" name="length3"></td>
-                        <td><input type="number" name="cost3"></td>
-                        <td><input type="number" name="deductible3"></td>
-                        <td><textarea name="covered_items3"></textarea></td>
-                    </tr>
-                    <tr>
-                        <td><select name="warranty_code4">
-
-                            <!--prefilled options-->
-
-                            </select></td>
-                        <td><input type="date" name="start_date4"></td>
-                        <td><input type="number" name="length4"></td>
-                        <td><input type="number" name="cost4"></td>
-                        <td><input type="number" name="deductible4"></td>
-                        <td><textarea name="covered_items4"></textarea></td>
-                    </tr>
-                    <tr>
-                        <td><select name="warranty_code5">
-
-                            <!--prefilled options-->
-
-                            </select></td>
-                        <td><input type="date" name="start_date5"></td>
-                        <td><input type="number" name="length5"></td>
-                        <td><input type="number" name="cost5"></td>
-                        <td><input type="number" name="deductible5"></td>
-                        <td><textarea name="covered_items5"></textarea></td>
+                    <tr id="warranty_info2">
+                      <td><select name="warranty_code2" onchange= "showWarrantyInfo2(this.value)">
+                          <option value=""> Select Warranty </option>
+                          <?php
+                          $sql4 = "SELECT * FROM warranty_type";
+                          $results = $conn->query($sql4);
+                          while($row = $results->fetch_assoc())
+                          {
+                            echo "<option value=" .$row['warranty_code'] . ">" . $row['warranty_name'] . "</option>";
+                          }
+                          ?>
+                          </select></td>
                     </tr>
                 </table>
                 <br>
