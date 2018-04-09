@@ -7,43 +7,46 @@
     <body>
         <?php include 'header.php';?>
         
-        <h2>All Customer Emails</h2>
+        <h2>Unsold Vehicles</h2>
         
         <fieldset>
         <legend><h3>Search values</h3></legend>
         
         <input type="text" id="nameSearch" onkeyup="searchName()" placeholder="Search for names.." size="50">
-            
-        <input type="text" id="emailSearch" onkeyup="searchEmail()" placeholder="Search for email addresses.." size="30">
+        
+        <input type="text" id="yearSearch" onkeyup="searchYear()" placeholder="Search years.." size="30">
             
         </fieldset>
-        
         <br/>
-    
         <table id="tables">
             <tr>
-                <th>Customer ID</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Email</th>
+                <th>Vehicle ID</th>
+                <th>Vehicle Make</th>
+                <th>Vehicle Model</th>
+                <th>Vehicle Year</th>
+                <th>Mileage</th>
+                <th>Purchase Price</th>
+                <th>Purchase Date</th>
             </tr>
 
             <?php
             include 'connectdb.php';
-
             connect_sql();
             $conn = connect_sql();
 
-            $sql = "SELECT * FROM customer";
+            $sql = "SELECT vehicle.vehicle_id, vehicle.make, vehicle.model, vehicle.v_year, vehicle.miles, car_purchase.price_paid, car_purchase.purch_date FROM vehicle INNER JOIN car_purchase ON vehicle.vehicle_id=car_purchase.vehicle_id WHERE vehicle.customer_id = '11' GROUP BY vehicle.vehicle_id";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
             // output data of each row
                 while($row = $result->fetch_assoc()) {
-                    echo "<tr>" . "<td>" . $row["customer_id"] . "</td>" . 
-                        "<td>" . $row["first_name"] . "</td>" . 
-                        "<td>" . $row["last_name"] . "</td>" .
-                        "<td>" . $row["email"] . "</td>" .
+                    echo "<tr>" . "<td>" . $row["vehicle_id"] . "</td>" . 
+                        "<td>" . $row["make"] . "</td>" . 
+                        "<td>" . $row["model"] . "</td>" . 
+                        "<td>" . $row["v_year"] . "</td>" .
+                        "<td>" . $row["miles"] . "</td>" .
+                        "<td>" . $row["price_paid"] . "</td>" .
+                        "<td>" . $row["purchase_date"] . "</td>" .
                         "</tr>";
                 }
             } else {
@@ -52,7 +55,7 @@
             $conn->close();
             ?>
         </table>
-        <script>
+            <script>
             function searchName() {
                 var input, filter, table, tr, td, i;
                 input = document.getElementById("nameSearch");
@@ -71,9 +74,9 @@
                 }
             }
             
-            function searchEmail() {
+            function searchYear() {
                 var input, filter, table, tr, td, i;
-                input = document.getElementById("emailSearch");
+                input = document.getElementById("yearSearch");
                 filter = input.value.toUpperCase();
                 table = document.getElementById("tables");
                 tr = table.getElementsByTagName("tr");
@@ -88,7 +91,7 @@
                     }       
                 }
             }
-        </script>
+        </script>    
     </body>
     
 </html>
