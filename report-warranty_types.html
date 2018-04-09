@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main-style.css">
+    </head>
+    <body>
+        <?php include 'header.php';?>
+        
+        <h2>All available Warraties</h2>
+        
+        <br/>
+    
+        <table id="tables">
+            <tr>
+                <th>Warranty Code</th>
+                <th>Warranty Name</th>
+                <th>Length</th>
+                <th>Cost</th>
+                <th>Deductible</th>
+                <th>Covered Items</th>
+            </tr>
+
+            <?php
+            $servername = "localhost";
+            $username = "root";
+            $password = "root";
+            $dbname = "dms_db";
+
+            // Create connection
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            // Check connection
+            if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+            } 
+
+            $sql = "SELECT * FROM warranty_type";
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+            // output data of each row
+                while($row = $result->fetch_assoc()) {
+                    echo "<tr>" . "<td>" . $row["warranty_code"] . "</td>" . 
+                        "<td>" . $row["warranty_name"] . "</td>" . 
+                        "<td>" . $row["length"] . "</td>" .
+                        "<td>" . $row["cost"] . "</td>" .
+                        "<td>" . $row["deductible"] . "</td>" .
+                        "<td>" . $row["covered_items"] . "</td>" .
+                        "</tr>";
+                }
+            } else {
+                echo "0 results";
+            }
+            $conn->close();
+            ?>
+        </table>
+    </body>
+    
+</html>
