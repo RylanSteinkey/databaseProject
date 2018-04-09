@@ -18,7 +18,8 @@
             <li><a href="/report-unsold-vehicles.html">Unsold Vehicles</a></li>
             <li><a href="/report-customer_email.html">Customer Emails</a></li>
             <li><a href="/report-salesperson-sales.html">Salesperson Report</a></li>
-            <li><a href="/report-warranty_types.html">Warranty Types</a></li>
+            <li><a href="/report-warranties-sold.html">Warraties Sold</a></li>
+            <li><a href="/report-warranty_types.html">Warranty Available</a></li>
             <li><a href="/new_customer.html">New Customer</a></li>
             <li><a href="/new_dealer.html">New Dealer</a></li>
         </ul>

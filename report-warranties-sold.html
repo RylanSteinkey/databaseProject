@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main-style.css">
+    </head>
+    <body>
+        <?php include 'header.php';?>
+        
+        <h2>All available Warraties</h2>
+        
+        <br/>
+    
+        <table id="tables">
+            <tr>
+                <th>Sold Warranty ID</th>
+                <th>Employee First</th>
+                <th>Employee Last</th>
+                <th>Customer First</th>
+                <th>Customer Last</th>
+                <th>Sale Date</th>
+                <th>Total Cost</th>
+                <th>Monthly Cost</th>
+            </tr>
+
+            <?php
+            $servername = "localhost";
+            $username = "root";
+            $password = "root";
+            $dbname = "dms_db";
+
+            // Create connection
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            // Check connection
+            if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+            } 
+
+            $sql = "SELECT sw.sold_warranty_id, e.first_name as efirst, e.last_name as elast, c.first_name as cfirst, c.last_name as clast, sw.sale_date, sw.total_cost, sw.monthly_cost FROM sold_warranty as sw, customer as c, employee as e JOIN employee ON e.emp_id=sw.emp_id";
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+            // output data of each row
+                while($row = $result->fetch_assoc()) {
+                    echo "<tr>" . "<td>" . $row["sold_warranty_id"] . "</td>" . 
+                        "<td>" . $row["efirst"] . "</td>" . 
+                        "<td>" . $row["elast"] . "</td>" .
+                        "<td>" . $row["cfirst"] . "</td>" . 
+                        "<td>" . $row["clast"] . "</td>" .
+                        "<td>" . $row["sale_date"] . "</td>" .
+                        "<td>" . $row["total_cost"] . "</td>" .
+                        "<td>" . $row["monthly_cost"] . "</td>" .
+                        "</tr>";
+                }
+            } else {
+                echo "0 results";
+            }
+            $conn->close();
+            ?>
+        </table>
+    </body>
+    
+</html>
