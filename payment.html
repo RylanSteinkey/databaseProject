@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body> 
+        <h1>Dealership Management System</h1>
+        <form action="payment.php" method="post">
+            <fieldset>
+                <legend><h2>Payment Form</h2></legend>
+                <!--Customer search and autopopulations goes here -->
+                <p>Customer ID: <input type="number" name="customer_id"required></p>
+                <p>Number of Late Payments: <input type="number" name="num_late_payments"required></p>
+                <p>Average Number of Days Late: <input type="number" name="avg_days_late"required></p>
+                
+                <br/>
+                <fieldset>
+                    <legend>Payment Info</legend>
+                <table id="payment_info">
+                    <tr>
+                        <th>Date Due</th>
+                        <th>Amount Due</th>
+                        <th>Date of Payment</th>
+                        <th>Amount Paid</th>
+                        <th>Bank Account Number</th>
+                    </tr>
+                    <tr>
+                        <td><input type="date" name="date_due"></td>
+                        <td><input type="number" name="amount_due"></td>
+                        <td><input type="date" name="date_paid"></td>
+                        <td><input type="number" name="amount_paid"></td>
+                        <td><input type="number" name="bank_account"></td>
+                    </tr>
+
+                </table>
+                </fieldset>
+                <br>
+                <input type="submit" name= "payment_submit">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
+
