@@ -8,6 +8,25 @@
         <?php include 'header.php';?>
         
         <h2>All Customers</h2>
+        
+        <!--
+        <form method="post" action="">
+            <p>Search: <input type="text" name="s_query"> &nbsp; in: <select name="query_type">
+                <option value="first_name">First Name</option>
+                <option value="last_name">Last Name</option>
+                <option value="address">Address</option>
+                <option value="phone">Phone</option>
+                <option value="gender">Gender</option>
+                <option value="DOB">DOB</option>
+                <option value="tax_id">Tax ID</option>
+                <option value="email">Email</option>
+                <option value="num_days_late"># of Days Late</option>
+                <option value="avg_days_late">AVG Days Late</option>
+                </select></p>
+        </form>
+        -->
+        
+        <input type="text" id="myInput" onkeyup="searchName()" placeholder="Search for names.."><input type="text" id="myInput" onkeyup="searchPhone()" placeholder="Search for names..">
     
         <table id="tables">
             <tr>
@@ -64,7 +83,43 @@
             $conn->close();
             ?>
         </table>
-        
+        <script>
+            function searchName() {
+                var input, filter, table, tr, td, i;
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("tables");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[1];
+                    if (td) {
+                        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }       
+                }
+            }
+            function searchPhone() {
+                var input, filter, table, tr, td, i;
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("tables");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[4];
+                    if (td) {
+                        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }       
+                }
+            }
+            
+        </script>
     </body>
     
 </html>
