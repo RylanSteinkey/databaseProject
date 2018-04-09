@@ -8,14 +8,14 @@
         <?php include 'header.php';?>
         
         <h2>Unsold Vehicles</h2>
-        
+
         <fieldset>
         <legend><h3>Search values</h3></legend>
         
-        <input type="text" id="nameSearch" onkeyup="searchName()" placeholder="Search for names.." size="50">
+        <input type="text" id="makeSearch" onkeyup="searchMake()" placeholder="Search for names.." size="50">
         
         <input type="text" id="yearSearch" onkeyup="searchYear()" placeholder="Search years.." size="30">
-            
+
         </fieldset>
         <br/>
         <table id="tables">
@@ -34,7 +34,7 @@
             connect_sql();
             $conn = connect_sql();
 
-            $sql = "SELECT vehicle.vehicle_id, vehicle.make, vehicle.model, vehicle.v_year, vehicle.miles, car_purchase.price_paid, car_purchase.purch_date FROM vehicle INNER JOIN car_purchase ON vehicle.vehicle_id=car_purchase.vehicle_id WHERE vehicle.customer_id = '11' GROUP BY vehicle.vehicle_id";
+            $sql = "SELECT vehicle.vehicle_id, vehicle.make, vehicle.model, vehicle.v_year, vehicle.miles, car_purchase.price_paid, car_purchase.purch_date FROM vehicle INNER JOIN car_purchase ON vehicle.vehicle_id=car_purchase.vehicle_id WHERE vehicle.customer_id = '11' GROUP BY vehicle.vehicle_id ORDER BY car_purchase.purchase_date";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -56,9 +56,9 @@
             ?>
         </table>
             <script>
-            function searchName() {
+            function searchMake() {
                 var input, filter, table, tr, td, i;
-                input = document.getElementById("nameSearch");
+                input = document.getElementById("makeSearch");
                 filter = input.value.toUpperCase();
                 table = document.getElementById("tables");
                 tr = table.getElementsByTagName("tr");
