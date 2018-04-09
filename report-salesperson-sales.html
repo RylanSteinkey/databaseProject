@@ -7,28 +7,24 @@
     <body>
         <?php include 'header.php';?>
         
-        <h2>Customer's Vehicles</h2>
+        <h2>Salesperson Revenue Detail</h2>
         
         <fieldset>
         <legend><h3>Search values</h3></legend>
         
         <input type="text" id="nameSearch" onkeyup="searchName()" placeholder="Search for names.." size="50">
         
-        <input type="text" id="makeSearch" onkeyup="searchMake()" placeholder="Search for Vehicle Makes.." size="30">
+        <input type="text" id="yearSearch" onkeyup="searchYear()" placeholder="Search years.." size="30">
             
-        <input type="text" id="modelSearch" onkeyup="searchModel()" placeholder="Search for Vehicle Models.." size="30">
-
         </fieldset>
         <br/>
         <table id="tables">
             <tr>
-                <th>Customer ID</th>
+                <th>Employee ID</th>
                 <th>First Name</th>
                 <th>Last Name</th>
-                <th>Vehicle ID</th>
-                <th>Make</th>
-                <th>Model</th>
                 <th>Year</th>
+                <th>Total Sales</th>
             </tr>
 
             <?php
@@ -44,19 +40,17 @@
                 die("Connection failed: " . $conn->connect_error);
             } 
 
-            $sql = "SELECT c.customer_id, c.first_name, c.last_name, v.vehicle_id, v.make, v.model, v.v_year FROM customer as c INNER JOIN vehicle as v ON v.customer_id = c.customer_id";
+            $sql = "SELECT e.emp_id, e.first_name, e.last_name, EXTRACT(YEAR FROM cs.date_sold) as year, FORMAT(SUM(cs.total_due), 2) as totalsale FROM employee as e, car_sale as cs WHERE cs.emp_id = e.emp_id GROUP BY first_name, year ORDER BY year DESC, emp_id";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
             // output data of each row
                 while($row = $result->fetch_assoc()) {
-                    echo "<tr>" . "<td>" . $row["customer_id"] . "</td>" . 
+                    echo "<tr>" . "<td>" . $row["emp_id"] . "</td>" . 
                         "<td>" . $row["first_name"] . "</td>" . 
                         "<td>" . $row["last_name"] . "</td>" . 
-                        "<td>" . $row["vehicle_id"] . "</td>" . 
-                        "<td>" . $row["make"] . "</td>" .
-                        "<td>" . $row["model"] . "</td>" .
-                        "<td>" . $row["v_year"] . "</td>" .
+                        "<td>" . $row["year"] . "</td>" . 
+                        "<td>" . $row["totalsale"] . "</td>" .
                         "</tr>";
                 }
             } else {
@@ -84,32 +78,14 @@
                 }
             }
             
-            function searchMake() {
+            function searchYear() {
                 var input, filter, table, tr, td, i;
-                input = document.getElementById("makeSearch");
+                input = document.getElementById("yearSearch");
                 filter = input.value.toUpperCase();
                 table = document.getElementById("tables");
                 tr = table.getElementsByTagName("tr");
                 for (i = 0; i < tr.length; i++) {
-                    td = tr[i].getElementsByTagName("td")[4];
-                    if (td) {
-                        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                            tr[i].style.display = "";
-                        } else {
-                            tr[i].style.display = "none";
-                        }
-                    }       
-                }
-            }
-            
-            function searchModel() {
-                var input, filter, table, tr, td, i;
-                input = document.getElementById("modelSearch");
-                filter = input.value.toUpperCase();
-                table = document.getElementById("tables");
-                tr = table.getElementsByTagName("tr");
-                for (i = 0; i < tr.length; i++) {
-                    td = tr[i].getElementsByTagName("td")[5];
+                    td = tr[i].getElementsByTagName("td")[3];
                     if (td) {
                         if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
                             tr[i].style.display = "";
